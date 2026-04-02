@@ -1,0 +1,250 @@
+[
+    {
+        "timestamp": "2026-03-24 17:43:24",
+        "crash_reason": "Fuzzing Triggered",
+        "original_count": 4,
+        "minimal_count": 4,
+        "minimal_combination": {
+            "MC_YAW_WEIGHT": 0.6,
+            "MPC_Z_VEL_MAX_DN": 0.5,
+            "MPC_Z_VEL_MAX_UP": 2.2,
+            "MC_PITCHRATE_K": 0.01
+        },
+        "ignored_noise_params": []
+    },
+    {
+        "timestamp": "2026-03-24 18:30:49",
+        "crash_reason": "Fuzzing Triggered",
+        "original_count": 3,
+        "minimal_count": 3,
+        "minimal_combination": {
+            "MC_PITCHRATE_K": 1.6256,
+            "IMU_GYRO_NF1_FRQ": 1000.0,
+            "IMU_GYRO_RATEMAX": 327
+        },
+        "ignored_noise_params": []
+    },
+    {
+        "timestamp": "2026-03-24 19:48:22",
+        "crash_reason": "Fuzzing Triggered",
+        "original_count": 2,
+        "minimal_count": 1,
+        "minimal_combination": {
+            "MC_ROLL_P": 0.0
+        },
+        "ignored_noise_params": [
+            "MC_PITCHRATE_K"
+        ]
+    },
+    {
+        "timestamp": "2026-03-24 20:31:11",
+        "crash_reason": "Fuzzing Triggered",
+        "original_count": 7,
+        "minimal_count": 2,
+        "minimal_combination": {
+            "MPC_XY_MAN_EXPO": 0.77,
+            "MC_ROLLRATE_MAX": 0.0
+        },
+        "ignored_noise_params": [
+            "MC_PITCHRATE_K",
+            "MPC_Z_VEL_MAX_DN",
+            "MPC_XY_VEL_ALL",
+            "MC_ROLL_P",
+            "NAV_MC_ALT_RAD"
+        ]
+    },
+    {
+        "timestamp": "2026-03-24 20:44:04",
+        "crash_reason": "Fuzzing Triggered",
+        "original_count": 2,
+        "minimal_count": 2,
+        "minimal_combination": {
+            "MC_ROLLRATE_MAX": 560.3,
+            "MC_PITCHRATE_K": 0.01
+        },
+        "ignored_noise_params": []
+    },
+    {
+        "timestamp": "2026-03-24 20:54:17",
+        "crash_reason": "Fuzzing Triggered",
+        "original_count": 1,
+        "minimal_count": 1,
+        "minimal_combination": {
+            "MC_ROLLRATE_MAX": 0.0
+        },
+        "ignored_noise_params": []
+    },
+    {
+        "timestamp": "2026-03-24 22:12:15",
+        "crash_reason": "Fuzzing Triggered",
+        "original_count": 6,
+        "minimal_count": 6,
+        "minimal_combination": {
+            "NAV_DLL_ACT": 1,
+            "NAV_ACC_RAD": 28.9,
+            "MPC_XY_VEL_MAX": 8.0,
+            "MC_PITCHRATE_MAX": 665.0,
+            "MC_YAW_P": 3.77,
+            "MC_YAW_WEIGHT": 0.0
+        },
+        "ignored_noise_params": []
+    },
+    {
+        "timestamp": "2026-03-24 23:33:14",
+        "crash_reason": "Fuzzing Triggered",
+        "original_count": 3,
+        "minimal_count": 3,
+        "minimal_combination": {
+            "NAV_DLL_ACT": 1,
+            "MC_YAW_P": 5.0,
+            "MC_PITCHRATE_K": 2.1829
+        },
+        "ignored_noise_params": []
+    },
+    {
+        "timestamp": "2026-03-25 02:02:14",
+        "crash_reason": "Fuzzing Triggered",
+        "original_count": 4,
+        "minimal_count": 4,
+        "minimal_combination": {
+            "EKF2_MAG_CHK_STR": 0.08,
+            "EKF2_MAG_DELAY": 31.5,
+            "MC_YAW_P": 0.0,
+            "MC_PITCHRATE_K": 1.897
+        },
+        "ignored_noise_params": []
+    },
+    {
+        "timestamp": "2026-03-25 04:13:10",
+        "crash_reason": "Fuzzing Triggered",
+        "original_count": 6,
+        "minimal_count": 6,
+        "minimal_combination": {
+            "NAV_DLL_ACT": 1,
+            "MIS_DIST_1WP": 2209.5,
+            "EKF2_MAG_DELAY": 38.5,
+            "EKF2_MAG_NOISE": 0.205,
+            "MC_YAW_P": 1.91,
+            "MC_PITCHRATE_K": 0.2804
+        },
+        "ignored_noise_params": []
+    },
+    {
+        "timestamp": "2026-03-25 04:27:43",
+        "crash_reason": "Fuzzing Triggered",
+        "original_count": 3,
+        "minimal_count": 2,
+        "minimal_combination": {
+            "EKF2_MAG_DELAY": 300.0,
+            "EKF2_MAG_NOISE": 0.256
+        },
+        "ignored_noise_params": [
+            "NAV_DLL_ACT"
+        ]
+    },
+    {
+        "timestamp": "2026-03-25 04:43:53",
+        "crash_reason": "Fuzzing Triggered",
+        "original_count": 5,
+        "minimal_count": 5,
+        "minimal_combination": {
+            "NAV_DLL_ACT": 1,
+            "EKF2_MAG_DELAY": 300.0,
+            "EKF2_MAG_NOISE": 0.255,
+            "MC_YAW_P": 0.0,
+            "MC_PITCHRATE_K": 5.0
+        },
+        "ignored_noise_params": []
+    },
+    {
+        "timestamp": "2026-03-25 05:32:32",
+        "crash_reason": "Fuzzing Triggered",
+        "original_count": 3,
+        "minimal_count": 3,
+        "minimal_combination": {
+            "EKF2_MAG_DELAY": 69.0,
+            "EKF2_MAG_NOISE": 0.001,
+            "MC_YAW_P": 5.0
+        },
+        "ignored_noise_params": []
+    },
+    {
+        "timestamp": "2026-03-25 06:52:03",
+        "crash_reason": "Fuzzing Triggered",
+        "original_count": 2,
+        "minimal_count": 2,
+        "minimal_combination": {
+            "EKF2_MAG_DELAY": 55.7,
+            "EKF2_MAG_NOISE": 1.0
+        },
+        "ignored_noise_params": []
+    },
+    {
+        "timestamp": "2026-03-25 07:42:32",
+        "crash_reason": "Fuzzing Triggered",
+        "original_count": 1,
+        "minimal_count": 1,
+        "minimal_combination": {
+            "EKF2_MAG_NOISE": 1.0
+        },
+        "ignored_noise_params": []
+    },
+    {
+        "timestamp": "2026-03-25 10:00:51",
+        "crash_reason": "Fuzzing Triggered",
+        "original_count": 4,
+        "minimal_count": 1,
+        "minimal_combination": {
+            "MC_PITCHRATE_K": 0.01
+        },
+        "ignored_noise_params": [
+            "EKF2_MAG_NOISE",
+            "MC_YAW_P",
+            "NAV_DLL_ACT"
+        ]
+    },
+    {
+        "timestamp": "2026-03-25 13:04:50",
+        "crash_reason": "Fuzzing Triggered",
+        "original_count": 1,
+        "minimal_count": 1,
+        "minimal_combination": {
+            "EKF2_MAG_NOISE": 0.185
+        },
+        "ignored_noise_params": []
+    },
+    {
+        "timestamp": "2026-03-25 13:30:01",
+        "crash_reason": "Fuzzing Triggered",
+        "original_count": 4,
+        "minimal_count": 3,
+        "minimal_combination": {
+            "EKF2_MAG_DELAY": 300.0,
+            "MC_YAW_P": 3.91,
+            "MC_PITCHRATE_K": 0.013
+        },
+        "ignored_noise_params": [
+            "NAV_DLL_ACT"
+        ]
+    },
+    {
+        "timestamp": "2026-03-25 14:48:19",
+        "crash_reason": "Fuzzing Triggered",
+        "original_count": 1,
+        "minimal_count": 1,
+        "minimal_combination": {
+            "EKF2_MAG_DELAY": 66.7
+        },
+        "ignored_noise_params": []
+    },
+    {
+        "timestamp": "2026-03-25 18:13:51",
+        "crash_reason": "Fuzzing Triggered",
+        "original_count": 1,
+        "minimal_count": 1,
+        "minimal_combination": {
+            "NAV_DLL_ACT": 6
+        },
+        "ignored_noise_params": []
+    }
+]

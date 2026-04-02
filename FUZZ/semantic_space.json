@@ -1,0 +1,2260 @@
+{
+    "Takeoff": {
+        "info": "\u8d77\u98de\u76f8\u4f4d\uff1a\u722c\u5347\u901f\u5ea6\u3001\u63a8\u529b\u66f2\u7ebf\u53ca\u8d77\u98de\u903b\u8f91\u3002",
+        "count": 55,
+        "parameters": {
+            "MPC_MAN_TILT_MAX": {
+                "def": 35.0,
+                "cur": 35.0,
+                "min": 1.0,
+                "max": 70.0,
+                "type": "Float",
+                "decimal": 0,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_MAN_Y_MAX": {
+                "def": 150.0,
+                "cur": 150.0,
+                "min": 0.0,
+                "max": 400.0,
+                "type": "Float",
+                "decimal": 0,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_MAN_Y_TAU": {
+                "def": 0.08,
+                "cur": 0.08,
+                "min": 0.0,
+                "max": 5.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_THR_HOVER": {
+                "def": 0.5,
+                "cur": 0.5,
+                "min": 0.1,
+                "max": 0.8,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_THR_MAX": {
+                "def": 1.0,
+                "cur": 1.0,
+                "min": 0.0,
+                "max": 1.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_THR_MIN": {
+                "def": 0.12,
+                "cur": 0.12,
+                "min": 0.05,
+                "max": 0.5,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_THR_XY_MARG": {
+                "def": 0.3,
+                "cur": 0.3,
+                "min": 0.0,
+                "max": 0.5,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_TKO_RAMP_T": {
+                "def": 3.0,
+                "cur": 3.0,
+                "min": 0.0,
+                "max": 5.0,
+                "type": "Float",
+                "decimal": null,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_TKO_SPEED": {
+                "def": 1.5,
+                "cur": 1.5,
+                "min": 1.0,
+                "max": 5.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_Z_MAN_EXPO": {
+                "def": 0.6,
+                "cur": 0.6,
+                "min": 0.0,
+                "max": 1.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_Z_P": {
+                "def": 1.0,
+                "cur": 1.0,
+                "min": 0.1,
+                "max": 1.5,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_Z_VEL_ALL": {
+                "def": -3.0,
+                "cur": -3.0,
+                "min": -3.0,
+                "max": 8.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_Z_VEL_D_ACC": {
+                "def": 0.0,
+                "cur": 0.0,
+                "min": 0.0,
+                "max": 2.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_Z_VEL_I_ACC": {
+                "def": 2.0,
+                "cur": 2.0,
+                "min": 0.2,
+                "max": 3.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_Z_VEL_MAX_DN": {
+                "def": 1.5,
+                "cur": 1.5,
+                "min": 0.5,
+                "max": 4.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_Z_VEL_MAX_UP": {
+                "def": 3.0,
+                "cur": 3.0,
+                "min": 0.5,
+                "max": 8.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_Z_VEL_P_ACC": {
+                "def": 4.0,
+                "cur": 4.0,
+                "min": 2.0,
+                "max": 15.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_Z_V_AUTO_DN": {
+                "def": 1.5,
+                "cur": 1.5,
+                "min": 0.5,
+                "max": 4.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_Z_V_AUTO_UP": {
+                "def": 3.0,
+                "cur": 3.0,
+                "min": 0.5,
+                "max": 8.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_GPS_CHECK": {
+                "def": 245,
+                "cur": 245,
+                "min": 0,
+                "max": 511,
+                "type": "Int32",
+                "decimal": null,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_GPS_CTRL": {
+                "def": 7,
+                "cur": 7,
+                "min": 0,
+                "max": 15,
+                "type": "Int32",
+                "decimal": null,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_GPS_DELAY": {
+                "def": 110.0,
+                "cur": 110.0,
+                "min": 0.0,
+                "max": 300.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_GPS_P_NOISE": {
+                "def": 0.5,
+                "cur": 0.5,
+                "min": 0.01,
+                "max": 10.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_GPS_V_NOISE": {
+                "def": 0.3,
+                "cur": 0.3,
+                "min": 0.01,
+                "max": 5.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_MAG_ACCLIM": {
+                "def": 0.5,
+                "cur": 0.5,
+                "min": 0.0,
+                "max": 5.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_MAG_B_NOISE": {
+                "def": 0.0001,
+                "cur": 0.0001,
+                "min": 0.0,
+                "max": 0.1,
+                "type": "Float",
+                "decimal": 6,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_MAG_CHECK": {
+                "def": 1,
+                "cur": 1,
+                "min": 0,
+                "max": 7,
+                "type": "Int32",
+                "decimal": null,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_MAG_CHK_INC": {
+                "def": 20.0,
+                "cur": 20.0,
+                "min": 0.0,
+                "max": 90.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_MAG_CHK_STR": {
+                "def": 0.2,
+                "cur": 0.2,
+                "min": 0.0,
+                "max": 1.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_MAG_DELAY": {
+                "def": 0.0,
+                "cur": 0.0,
+                "min": 0.0,
+                "max": 300.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_MAG_E_NOISE": {
+                "def": 0.001,
+                "cur": 0.001,
+                "min": 0.0,
+                "max": 0.1,
+                "type": "Float",
+                "decimal": 6,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_MAG_NOISE": {
+                "def": 0.05,
+                "cur": 0.05,
+                "min": 0.001,
+                "max": 1.0,
+                "type": "Float",
+                "decimal": 3,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_PITCHRATE_MAX": {
+                "def": 220.0,
+                "cur": 220.0,
+                "min": 0.0,
+                "max": 1800.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_PITCH_P": {
+                "def": 6.5,
+                "cur": 6.5,
+                "min": 0.0,
+                "max": 12.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_ROLLRATE_MAX": {
+                "def": 220.0,
+                "cur": 220.0,
+                "min": 0.0,
+                "max": 1800.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_ROLL_P": {
+                "def": 6.5,
+                "cur": 6.5,
+                "min": 0.0,
+                "max": 12.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_YAWRATE_MAX": {
+                "def": 200.0,
+                "cur": 200.0,
+                "min": 0.0,
+                "max": 1800.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_YAW_P": {
+                "def": 2.8,
+                "cur": 2.8,
+                "min": 0.0,
+                "max": 5.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_YAW_WEIGHT": {
+                "def": 0.4,
+                "cur": 0.4,
+                "min": 0.0,
+                "max": 1.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_XY_VEL_MAX": {
+                "def": 12.0,
+                "cur": 12.0,
+                "min": 0.0,
+                "max": 20.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_PITCHRATE_K": {
+                "def": 1.0,
+                "cur": 1.0,
+                "min": 0.01,
+                "max": 5.0,
+                "type": "Float",
+                "decimal": 4,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_PITCHRATE_P": {
+                "def": 0.15,
+                "cur": 0.15,
+                "min": 0.01,
+                "max": 0.6,
+                "type": "Float",
+                "decimal": 3,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_ROLLRATE_D": {
+                "def": 0.003,
+                "cur": 0.003,
+                "min": 0.0,
+                "max": 0.01,
+                "type": "Float",
+                "decimal": 4,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_ROLLRATE_K": {
+                "def": 1.0,
+                "cur": 1.0,
+                "min": 0.01,
+                "max": 5.0,
+                "type": "Float",
+                "decimal": 4,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_ROLLRATE_P": {
+                "def": 0.15,
+                "cur": 0.15,
+                "min": 0.01,
+                "max": 0.5,
+                "type": "Float",
+                "decimal": 3,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_YAWRATE_K": {
+                "def": 1.0,
+                "cur": 1.0,
+                "min": 0.0,
+                "max": 5.0,
+                "type": "Float",
+                "decimal": 4,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_YAWRATE_P": {
+                "def": 0.2,
+                "cur": 0.2,
+                "min": 0.0,
+                "max": 0.6,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "IMU_GYRO_CUTOFF": {
+                "def": 40.0,
+                "cur": 40.0,
+                "min": 0.0,
+                "max": 1000.0,
+                "type": "Float",
+                "decimal": null,
+                "values": null,
+                "is_enum": false
+            },
+            "IMU_GYRO_DNF_BW": {
+                "def": 15.0,
+                "cur": 15.0,
+                "min": 5.0,
+                "max": 30.0,
+                "type": "Float",
+                "decimal": null,
+                "values": null,
+                "is_enum": false
+            },
+            "IMU_GYRO_DNF_HMC": {
+                "def": 3,
+                "cur": 3,
+                "min": 1,
+                "max": 7,
+                "type": "Int32",
+                "decimal": null,
+                "values": null,
+                "is_enum": false
+            },
+            "IMU_GYRO_NF0_BW": {
+                "def": 20.0,
+                "cur": 20.0,
+                "min": 0.0,
+                "max": 100.0,
+                "type": "Float",
+                "decimal": null,
+                "values": null,
+                "is_enum": false
+            },
+            "IMU_GYRO_NF0_FRQ": {
+                "def": 0.0,
+                "cur": 0.0,
+                "min": 0.0,
+                "max": 1000.0,
+                "type": "Float",
+                "decimal": null,
+                "values": null,
+                "is_enum": false
+            },
+            "IMU_GYRO_NF1_BW": {
+                "def": 20.0,
+                "cur": 20.0,
+                "min": 0.0,
+                "max": 100.0,
+                "type": "Float",
+                "decimal": null,
+                "values": null,
+                "is_enum": false
+            },
+            "IMU_GYRO_NF1_FRQ": {
+                "def": 0.0,
+                "cur": 0.0,
+                "min": 0.0,
+                "max": 1000.0,
+                "type": "Float",
+                "decimal": null,
+                "values": null,
+                "is_enum": false
+            },
+            "IMU_GYRO_RATEMAX": {
+                "def": 400,
+                "cur": 800,
+                "min": 100,
+                "max": 2000,
+                "type": "Int32",
+                "decimal": null,
+                "values": [
+                    {
+                        "description": "100 Hz",
+                        "value": 100
+                    },
+                    {
+                        "description": "250 Hz",
+                        "value": 250
+                    },
+                    {
+                        "description": "400 Hz",
+                        "value": 400
+                    },
+                    {
+                        "description": "800 Hz",
+                        "value": 800
+                    },
+                    {
+                        "description": "1000 Hz",
+                        "value": 1000
+                    },
+                    {
+                        "description": "2000 Hz",
+                        "value": 2000
+                    }
+                ],
+                "is_enum": true
+            }
+        }
+    },
+    "Mission": {
+        "info": "\u4efb\u52a1\u76f8\u4f4d\uff1a\u822a\u8ff9\u8ddf\u968f\u3001\u6c34\u5e73\u901f\u5ea6\u53ca\u8f6c\u5f2f\u51b3\u7b56\u3002",
+        "count": 66,
+        "parameters": {
+            "NAV_DLL_ACT": {
+                "def": 0,
+                "cur": 0,
+                "min": 0,
+                "max": 6,
+                "type": "Int32",
+                "decimal": null,
+                "values": [
+                    {
+                        "description": "Disabled",
+                        "value": 0
+                    },
+                    {
+                        "description": "Hold mode",
+                        "value": 1
+                    },
+                    {
+                        "description": "Return mode",
+                        "value": 2
+                    },
+                    {
+                        "description": "Land mode",
+                        "value": 3
+                    },
+                    {
+                        "description": "Terminate",
+                        "value": 5
+                    },
+                    {
+                        "description": "Disarm",
+                        "value": 6
+                    }
+                ],
+                "is_enum": true
+            },
+            "NAV_RCL_ACT": {
+                "def": 2,
+                "cur": 2,
+                "min": 1,
+                "max": 6,
+                "type": "Int32",
+                "decimal": null,
+                "values": [
+                    {
+                        "description": "Hold mode",
+                        "value": 1
+                    },
+                    {
+                        "description": "Return mode",
+                        "value": 2
+                    },
+                    {
+                        "description": "Land mode",
+                        "value": 3
+                    },
+                    {
+                        "description": "Terminate",
+                        "value": 5
+                    },
+                    {
+                        "description": "Disarm",
+                        "value": 6
+                    }
+                ],
+                "is_enum": true
+            },
+            "MIS_DIST_1WP": {
+                "def": 900.0,
+                "cur": 900.0,
+                "min": -1.0,
+                "max": 10000.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "MIS_MNT_YAW_CTL": {
+                "def": 0,
+                "cur": 0,
+                "min": 0,
+                "max": 1,
+                "type": "Int32",
+                "decimal": null,
+                "values": [
+                    {
+                        "description": "Disable",
+                        "value": 0
+                    },
+                    {
+                        "description": "Enable",
+                        "value": 1
+                    }
+                ],
+                "is_enum": true
+            },
+            "MIS_YAW_ERR": {
+                "def": 12.0,
+                "cur": 12.0,
+                "min": 0.0,
+                "max": 90.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "MIS_YAW_TMT": {
+                "def": -1.0,
+                "cur": -1.0,
+                "min": -1.0,
+                "max": 20.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "NAV_ACC_RAD": {
+                "def": 10.0,
+                "cur": 2.0,
+                "min": 0.05,
+                "max": 200.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "NAV_FW_ALTL_RAD": {
+                "def": 5.0,
+                "cur": 5.0,
+                "min": 0.05,
+                "max": 200.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "NAV_FW_ALT_RAD": {
+                "def": 10.0,
+                "cur": 10.0,
+                "min": 0.05,
+                "max": 200.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "NAV_LOITER_RAD": {
+                "def": 80.0,
+                "cur": 80.0,
+                "min": 25.0,
+                "max": 1000.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "NAV_MC_ALT_RAD": {
+                "def": 0.8,
+                "cur": 0.8,
+                "min": 0.05,
+                "max": 200.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "NAV_TRAFF_A_VER": {
+                "def": 500.0,
+                "cur": 500.0,
+                "min": 10.0,
+                "max": 500.0,
+                "type": "Float",
+                "decimal": null,
+                "values": null,
+                "is_enum": false
+            },
+            "NAV_TRAFF_COLL_T": {
+                "def": 60,
+                "cur": 60,
+                "min": 1,
+                "max": 900000000,
+                "type": "Int32",
+                "decimal": null,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_ACC_DOWN_MAX": {
+                "def": 3.0,
+                "cur": 3.0,
+                "min": 2.0,
+                "max": 15.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_ACC_HOR": {
+                "def": 3.0,
+                "cur": 3.0,
+                "min": 2.0,
+                "max": 15.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_ACC_HOR_MAX": {
+                "def": 5.0,
+                "cur": 5.0,
+                "min": 2.0,
+                "max": 15.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_ACC_UP_MAX": {
+                "def": 4.0,
+                "cur": 4.0,
+                "min": 2.0,
+                "max": 15.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_JERK_AUTO": {
+                "def": 4.0,
+                "cur": 4.0,
+                "min": 1.0,
+                "max": 80.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_JERK_MAX": {
+                "def": 8.0,
+                "cur": 8.0,
+                "min": 0.5,
+                "max": 500.0,
+                "type": "Float",
+                "decimal": 0,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_XY_CRUISE": {
+                "def": 5.0,
+                "cur": 5.0,
+                "min": 3.0,
+                "max": 20.0,
+                "type": "Float",
+                "decimal": 0,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_XY_ERR_MAX": {
+                "def": 2.0,
+                "cur": 2.0,
+                "min": 0.1,
+                "max": 10.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_XY_MAN_EXPO": {
+                "def": 0.6,
+                "cur": 0.6,
+                "min": 0.0,
+                "max": 1.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_XY_P": {
+                "def": 0.95,
+                "cur": 0.95,
+                "min": 0.0,
+                "max": 2.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_XY_TRAJ_P": {
+                "def": 0.5,
+                "cur": 0.5,
+                "min": 0.1,
+                "max": 1.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_XY_VEL_ALL": {
+                "def": -10.0,
+                "cur": -10.0,
+                "min": -20.0,
+                "max": 20.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_XY_VEL_D_ACC": {
+                "def": 0.2,
+                "cur": 0.2,
+                "min": 0.1,
+                "max": 2.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_XY_VEL_I_ACC": {
+                "def": 0.4,
+                "cur": 0.4,
+                "min": 0.0,
+                "max": 60.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_XY_VEL_MAX": {
+                "def": 12.0,
+                "cur": 12.0,
+                "min": 0.0,
+                "max": 20.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_XY_VEL_P_ACC": {
+                "def": 1.8,
+                "cur": 1.8,
+                "min": 1.2,
+                "max": 5.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_GPS_CHECK": {
+                "def": 245,
+                "cur": 245,
+                "min": 0,
+                "max": 511,
+                "type": "Int32",
+                "decimal": null,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_GPS_CTRL": {
+                "def": 7,
+                "cur": 7,
+                "min": 0,
+                "max": 15,
+                "type": "Int32",
+                "decimal": null,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_GPS_DELAY": {
+                "def": 110.0,
+                "cur": 110.0,
+                "min": 0.0,
+                "max": 300.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_GPS_P_NOISE": {
+                "def": 0.5,
+                "cur": 0.5,
+                "min": 0.01,
+                "max": 10.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_GPS_V_NOISE": {
+                "def": 0.3,
+                "cur": 0.3,
+                "min": 0.01,
+                "max": 5.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_MAG_ACCLIM": {
+                "def": 0.5,
+                "cur": 0.5,
+                "min": 0.0,
+                "max": 5.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_MAG_B_NOISE": {
+                "def": 0.0001,
+                "cur": 0.0001,
+                "min": 0.0,
+                "max": 0.1,
+                "type": "Float",
+                "decimal": 6,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_MAG_CHECK": {
+                "def": 1,
+                "cur": 1,
+                "min": 0,
+                "max": 7,
+                "type": "Int32",
+                "decimal": null,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_MAG_CHK_INC": {
+                "def": 20.0,
+                "cur": 20.0,
+                "min": 0.0,
+                "max": 90.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_MAG_CHK_STR": {
+                "def": 0.2,
+                "cur": 0.2,
+                "min": 0.0,
+                "max": 1.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_MAG_DELAY": {
+                "def": 0.0,
+                "cur": 0.0,
+                "min": 0.0,
+                "max": 300.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_MAG_E_NOISE": {
+                "def": 0.001,
+                "cur": 0.001,
+                "min": 0.0,
+                "max": 0.1,
+                "type": "Float",
+                "decimal": 6,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_MAG_NOISE": {
+                "def": 0.05,
+                "cur": 0.05,
+                "min": 0.001,
+                "max": 1.0,
+                "type": "Float",
+                "decimal": 3,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_PITCHRATE_MAX": {
+                "def": 220.0,
+                "cur": 220.0,
+                "min": 0.0,
+                "max": 1800.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_PITCH_P": {
+                "def": 6.5,
+                "cur": 6.5,
+                "min": 0.0,
+                "max": 12.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_ROLLRATE_MAX": {
+                "def": 220.0,
+                "cur": 220.0,
+                "min": 0.0,
+                "max": 1800.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_ROLL_P": {
+                "def": 6.5,
+                "cur": 6.5,
+                "min": 0.0,
+                "max": 12.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_YAWRATE_MAX": {
+                "def": 200.0,
+                "cur": 200.0,
+                "min": 0.0,
+                "max": 1800.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_YAW_P": {
+                "def": 2.8,
+                "cur": 2.8,
+                "min": 0.0,
+                "max": 5.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_YAW_WEIGHT": {
+                "def": 0.4,
+                "cur": 0.4,
+                "min": 0.0,
+                "max": 1.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_Z_VEL_MAX_DN": {
+                "def": 1.5,
+                "cur": 1.5,
+                "min": 0.5,
+                "max": 4.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_Z_VEL_MAX_UP": {
+                "def": 3.0,
+                "cur": 3.0,
+                "min": 0.5,
+                "max": 8.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_PITCHRATE_K": {
+                "def": 1.0,
+                "cur": 1.0,
+                "min": 0.01,
+                "max": 5.0,
+                "type": "Float",
+                "decimal": 4,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_PITCHRATE_P": {
+                "def": 0.15,
+                "cur": 0.15,
+                "min": 0.01,
+                "max": 0.6,
+                "type": "Float",
+                "decimal": 3,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_ROLLRATE_D": {
+                "def": 0.003,
+                "cur": 0.003,
+                "min": 0.0,
+                "max": 0.01,
+                "type": "Float",
+                "decimal": 4,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_ROLLRATE_K": {
+                "def": 1.0,
+                "cur": 1.0,
+                "min": 0.01,
+                "max": 5.0,
+                "type": "Float",
+                "decimal": 4,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_ROLLRATE_P": {
+                "def": 0.15,
+                "cur": 0.15,
+                "min": 0.01,
+                "max": 0.5,
+                "type": "Float",
+                "decimal": 3,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_YAWRATE_K": {
+                "def": 1.0,
+                "cur": 1.0,
+                "min": 0.0,
+                "max": 5.0,
+                "type": "Float",
+                "decimal": 4,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_YAWRATE_P": {
+                "def": 0.2,
+                "cur": 0.2,
+                "min": 0.0,
+                "max": 0.6,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "IMU_GYRO_CUTOFF": {
+                "def": 40.0,
+                "cur": 40.0,
+                "min": 0.0,
+                "max": 1000.0,
+                "type": "Float",
+                "decimal": null,
+                "values": null,
+                "is_enum": false
+            },
+            "IMU_GYRO_DNF_BW": {
+                "def": 15.0,
+                "cur": 15.0,
+                "min": 5.0,
+                "max": 30.0,
+                "type": "Float",
+                "decimal": null,
+                "values": null,
+                "is_enum": false
+            },
+            "IMU_GYRO_DNF_HMC": {
+                "def": 3,
+                "cur": 3,
+                "min": 1,
+                "max": 7,
+                "type": "Int32",
+                "decimal": null,
+                "values": null,
+                "is_enum": false
+            },
+            "IMU_GYRO_NF0_BW": {
+                "def": 20.0,
+                "cur": 20.0,
+                "min": 0.0,
+                "max": 100.0,
+                "type": "Float",
+                "decimal": null,
+                "values": null,
+                "is_enum": false
+            },
+            "IMU_GYRO_NF0_FRQ": {
+                "def": 0.0,
+                "cur": 0.0,
+                "min": 0.0,
+                "max": 1000.0,
+                "type": "Float",
+                "decimal": null,
+                "values": null,
+                "is_enum": false
+            },
+            "IMU_GYRO_NF1_BW": {
+                "def": 20.0,
+                "cur": 20.0,
+                "min": 0.0,
+                "max": 100.0,
+                "type": "Float",
+                "decimal": null,
+                "values": null,
+                "is_enum": false
+            },
+            "IMU_GYRO_NF1_FRQ": {
+                "def": 0.0,
+                "cur": 0.0,
+                "min": 0.0,
+                "max": 1000.0,
+                "type": "Float",
+                "decimal": null,
+                "values": null,
+                "is_enum": false
+            },
+            "IMU_GYRO_RATEMAX": {
+                "def": 400,
+                "cur": 800,
+                "min": 100,
+                "max": 2000,
+                "type": "Int32",
+                "decimal": null,
+                "values": [
+                    {
+                        "description": "100 Hz",
+                        "value": 100
+                    },
+                    {
+                        "description": "250 Hz",
+                        "value": 250
+                    },
+                    {
+                        "description": "400 Hz",
+                        "value": 400
+                    },
+                    {
+                        "description": "800 Hz",
+                        "value": 800
+                    },
+                    {
+                        "description": "1000 Hz",
+                        "value": 1000
+                    },
+                    {
+                        "description": "2000 Hz",
+                        "value": 2000
+                    }
+                ],
+                "is_enum": true
+            }
+        }
+    },
+    "Hold": {
+        "info": "\u60ac\u505c\u76f8\u4f4d\uff1a\u4f4d\u7f6e\u4fdd\u6301\u53ca\u9759\u6b62\u6297\u6270\u52a8\u3002",
+        "count": 43,
+        "parameters": {
+            "MPC_HOLD_DZ": {
+                "def": 0.1,
+                "cur": 0.1,
+                "min": 0.0,
+                "max": 1.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_HOLD_MAX_XY": {
+                "def": 0.8,
+                "cur": 0.8,
+                "min": 0.0,
+                "max": 3.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_HOLD_MAX_Z": {
+                "def": 0.6,
+                "cur": 0.6,
+                "min": 0.0,
+                "max": 3.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_XY_P": {
+                "def": 0.95,
+                "cur": 0.95,
+                "min": 0.0,
+                "max": 2.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_Z_P": {
+                "def": 1.0,
+                "cur": 1.0,
+                "min": 0.1,
+                "max": 1.5,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_GPS_CHECK": {
+                "def": 245,
+                "cur": 245,
+                "min": 0,
+                "max": 511,
+                "type": "Int32",
+                "decimal": null,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_GPS_CTRL": {
+                "def": 7,
+                "cur": 7,
+                "min": 0,
+                "max": 15,
+                "type": "Int32",
+                "decimal": null,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_GPS_DELAY": {
+                "def": 110.0,
+                "cur": 110.0,
+                "min": 0.0,
+                "max": 300.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_GPS_P_NOISE": {
+                "def": 0.5,
+                "cur": 0.5,
+                "min": 0.01,
+                "max": 10.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_GPS_V_NOISE": {
+                "def": 0.3,
+                "cur": 0.3,
+                "min": 0.01,
+                "max": 5.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_MAG_ACCLIM": {
+                "def": 0.5,
+                "cur": 0.5,
+                "min": 0.0,
+                "max": 5.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_MAG_B_NOISE": {
+                "def": 0.0001,
+                "cur": 0.0001,
+                "min": 0.0,
+                "max": 0.1,
+                "type": "Float",
+                "decimal": 6,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_MAG_CHECK": {
+                "def": 1,
+                "cur": 1,
+                "min": 0,
+                "max": 7,
+                "type": "Int32",
+                "decimal": null,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_MAG_CHK_INC": {
+                "def": 20.0,
+                "cur": 20.0,
+                "min": 0.0,
+                "max": 90.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_MAG_CHK_STR": {
+                "def": 0.2,
+                "cur": 0.2,
+                "min": 0.0,
+                "max": 1.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_MAG_DELAY": {
+                "def": 0.0,
+                "cur": 0.0,
+                "min": 0.0,
+                "max": 300.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_MAG_E_NOISE": {
+                "def": 0.001,
+                "cur": 0.001,
+                "min": 0.0,
+                "max": 0.1,
+                "type": "Float",
+                "decimal": 6,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_MAG_NOISE": {
+                "def": 0.05,
+                "cur": 0.05,
+                "min": 0.001,
+                "max": 1.0,
+                "type": "Float",
+                "decimal": 3,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_PITCHRATE_MAX": {
+                "def": 220.0,
+                "cur": 220.0,
+                "min": 0.0,
+                "max": 1800.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_PITCH_P": {
+                "def": 6.5,
+                "cur": 6.5,
+                "min": 0.0,
+                "max": 12.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_ROLLRATE_MAX": {
+                "def": 220.0,
+                "cur": 220.0,
+                "min": 0.0,
+                "max": 1800.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_ROLL_P": {
+                "def": 6.5,
+                "cur": 6.5,
+                "min": 0.0,
+                "max": 12.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_YAWRATE_MAX": {
+                "def": 200.0,
+                "cur": 200.0,
+                "min": 0.0,
+                "max": 1800.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_YAW_P": {
+                "def": 2.8,
+                "cur": 2.8,
+                "min": 0.0,
+                "max": 5.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_YAW_WEIGHT": {
+                "def": 0.4,
+                "cur": 0.4,
+                "min": 0.0,
+                "max": 1.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_XY_VEL_MAX": {
+                "def": 12.0,
+                "cur": 12.0,
+                "min": 0.0,
+                "max": 20.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_Z_VEL_MAX_DN": {
+                "def": 1.5,
+                "cur": 1.5,
+                "min": 0.5,
+                "max": 4.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_Z_VEL_MAX_UP": {
+                "def": 3.0,
+                "cur": 3.0,
+                "min": 0.5,
+                "max": 8.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_PITCHRATE_K": {
+                "def": 1.0,
+                "cur": 1.0,
+                "min": 0.01,
+                "max": 5.0,
+                "type": "Float",
+                "decimal": 4,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_PITCHRATE_P": {
+                "def": 0.15,
+                "cur": 0.15,
+                "min": 0.01,
+                "max": 0.6,
+                "type": "Float",
+                "decimal": 3,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_ROLLRATE_D": {
+                "def": 0.003,
+                "cur": 0.003,
+                "min": 0.0,
+                "max": 0.01,
+                "type": "Float",
+                "decimal": 4,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_ROLLRATE_K": {
+                "def": 1.0,
+                "cur": 1.0,
+                "min": 0.01,
+                "max": 5.0,
+                "type": "Float",
+                "decimal": 4,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_ROLLRATE_P": {
+                "def": 0.15,
+                "cur": 0.15,
+                "min": 0.01,
+                "max": 0.5,
+                "type": "Float",
+                "decimal": 3,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_YAWRATE_K": {
+                "def": 1.0,
+                "cur": 1.0,
+                "min": 0.0,
+                "max": 5.0,
+                "type": "Float",
+                "decimal": 4,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_YAWRATE_P": {
+                "def": 0.2,
+                "cur": 0.2,
+                "min": 0.0,
+                "max": 0.6,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "IMU_GYRO_CUTOFF": {
+                "def": 40.0,
+                "cur": 40.0,
+                "min": 0.0,
+                "max": 1000.0,
+                "type": "Float",
+                "decimal": null,
+                "values": null,
+                "is_enum": false
+            },
+            "IMU_GYRO_DNF_BW": {
+                "def": 15.0,
+                "cur": 15.0,
+                "min": 5.0,
+                "max": 30.0,
+                "type": "Float",
+                "decimal": null,
+                "values": null,
+                "is_enum": false
+            },
+            "IMU_GYRO_DNF_HMC": {
+                "def": 3,
+                "cur": 3,
+                "min": 1,
+                "max": 7,
+                "type": "Int32",
+                "decimal": null,
+                "values": null,
+                "is_enum": false
+            },
+            "IMU_GYRO_NF0_BW": {
+                "def": 20.0,
+                "cur": 20.0,
+                "min": 0.0,
+                "max": 100.0,
+                "type": "Float",
+                "decimal": null,
+                "values": null,
+                "is_enum": false
+            },
+            "IMU_GYRO_NF0_FRQ": {
+                "def": 0.0,
+                "cur": 0.0,
+                "min": 0.0,
+                "max": 1000.0,
+                "type": "Float",
+                "decimal": null,
+                "values": null,
+                "is_enum": false
+            },
+            "IMU_GYRO_NF1_BW": {
+                "def": 20.0,
+                "cur": 20.0,
+                "min": 0.0,
+                "max": 100.0,
+                "type": "Float",
+                "decimal": null,
+                "values": null,
+                "is_enum": false
+            },
+            "IMU_GYRO_NF1_FRQ": {
+                "def": 0.0,
+                "cur": 0.0,
+                "min": 0.0,
+                "max": 1000.0,
+                "type": "Float",
+                "decimal": null,
+                "values": null,
+                "is_enum": false
+            },
+            "IMU_GYRO_RATEMAX": {
+                "def": 400,
+                "cur": 800,
+                "min": 100,
+                "max": 2000,
+                "type": "Int32",
+                "decimal": null,
+                "values": [
+                    {
+                        "description": "100 Hz",
+                        "value": 100
+                    },
+                    {
+                        "description": "250 Hz",
+                        "value": 250
+                    },
+                    {
+                        "description": "400 Hz",
+                        "value": 400
+                    },
+                    {
+                        "description": "800 Hz",
+                        "value": 800
+                    },
+                    {
+                        "description": "1000 Hz",
+                        "value": 1000
+                    },
+                    {
+                        "description": "2000 Hz",
+                        "value": 2000
+                    }
+                ],
+                "is_enum": true
+            }
+        }
+    },
+    "Landing": {
+        "info": "\u964d\u843d\u76f8\u4f4d\uff1a\u4e0b\u964d\u901f\u7387\u53ca\u89e6\u5730\u5224\u5b9a\u3002",
+        "count": 43,
+        "parameters": {
+            "LNDMC_TRIG_TIME": {
+                "def": 1.0,
+                "cur": 1.0,
+                "min": 0.1,
+                "max": 10.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_LAND_ALT1": {
+                "def": 10.0,
+                "cur": 10.0,
+                "min": 0.0,
+                "max": 122.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_LAND_ALT2": {
+                "def": 5.0,
+                "cur": 5.0,
+                "min": 0.0,
+                "max": 122.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_LAND_ALT3": {
+                "def": 1.0,
+                "cur": 1.0,
+                "min": 0.0,
+                "max": 122.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_LAND_RC_HELP": {
+                "def": 0,
+                "cur": 0,
+                "min": 0,
+                "max": 1,
+                "type": "Int32",
+                "decimal": null,
+                "values": [
+                    {
+                        "description": "Nudging disabled",
+                        "value": 0
+                    },
+                    {
+                        "description": "Nudging enabled",
+                        "value": 1
+                    }
+                ],
+                "is_enum": true
+            },
+            "MPC_Z_VEL_MAX_DN": {
+                "def": 1.5,
+                "cur": 1.5,
+                "min": 0.5,
+                "max": 4.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_GPS_CHECK": {
+                "def": 245,
+                "cur": 245,
+                "min": 0,
+                "max": 511,
+                "type": "Int32",
+                "decimal": null,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_GPS_CTRL": {
+                "def": 7,
+                "cur": 7,
+                "min": 0,
+                "max": 15,
+                "type": "Int32",
+                "decimal": null,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_GPS_DELAY": {
+                "def": 110.0,
+                "cur": 110.0,
+                "min": 0.0,
+                "max": 300.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_GPS_P_NOISE": {
+                "def": 0.5,
+                "cur": 0.5,
+                "min": 0.01,
+                "max": 10.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_GPS_V_NOISE": {
+                "def": 0.3,
+                "cur": 0.3,
+                "min": 0.01,
+                "max": 5.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_MAG_ACCLIM": {
+                "def": 0.5,
+                "cur": 0.5,
+                "min": 0.0,
+                "max": 5.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_MAG_B_NOISE": {
+                "def": 0.0001,
+                "cur": 0.0001,
+                "min": 0.0,
+                "max": 0.1,
+                "type": "Float",
+                "decimal": 6,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_MAG_CHECK": {
+                "def": 1,
+                "cur": 1,
+                "min": 0,
+                "max": 7,
+                "type": "Int32",
+                "decimal": null,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_MAG_CHK_INC": {
+                "def": 20.0,
+                "cur": 20.0,
+                "min": 0.0,
+                "max": 90.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_MAG_CHK_STR": {
+                "def": 0.2,
+                "cur": 0.2,
+                "min": 0.0,
+                "max": 1.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_MAG_DELAY": {
+                "def": 0.0,
+                "cur": 0.0,
+                "min": 0.0,
+                "max": 300.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_MAG_E_NOISE": {
+                "def": 0.001,
+                "cur": 0.001,
+                "min": 0.0,
+                "max": 0.1,
+                "type": "Float",
+                "decimal": 6,
+                "values": null,
+                "is_enum": false
+            },
+            "EKF2_MAG_NOISE": {
+                "def": 0.05,
+                "cur": 0.05,
+                "min": 0.001,
+                "max": 1.0,
+                "type": "Float",
+                "decimal": 3,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_PITCHRATE_MAX": {
+                "def": 220.0,
+                "cur": 220.0,
+                "min": 0.0,
+                "max": 1800.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_PITCH_P": {
+                "def": 6.5,
+                "cur": 6.5,
+                "min": 0.0,
+                "max": 12.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_ROLLRATE_MAX": {
+                "def": 220.0,
+                "cur": 220.0,
+                "min": 0.0,
+                "max": 1800.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_ROLL_P": {
+                "def": 6.5,
+                "cur": 6.5,
+                "min": 0.0,
+                "max": 12.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_YAWRATE_MAX": {
+                "def": 200.0,
+                "cur": 200.0,
+                "min": 0.0,
+                "max": 1800.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_YAW_P": {
+                "def": 2.8,
+                "cur": 2.8,
+                "min": 0.0,
+                "max": 5.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_YAW_WEIGHT": {
+                "def": 0.4,
+                "cur": 0.4,
+                "min": 0.0,
+                "max": 1.0,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_XY_VEL_MAX": {
+                "def": 12.0,
+                "cur": 12.0,
+                "min": 0.0,
+                "max": 20.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "MPC_Z_VEL_MAX_UP": {
+                "def": 3.0,
+                "cur": 3.0,
+                "min": 0.5,
+                "max": 8.0,
+                "type": "Float",
+                "decimal": 1,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_PITCHRATE_K": {
+                "def": 1.0,
+                "cur": 1.0,
+                "min": 0.01,
+                "max": 5.0,
+                "type": "Float",
+                "decimal": 4,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_PITCHRATE_P": {
+                "def": 0.15,
+                "cur": 0.15,
+                "min": 0.01,
+                "max": 0.6,
+                "type": "Float",
+                "decimal": 3,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_ROLLRATE_D": {
+                "def": 0.003,
+                "cur": 0.003,
+                "min": 0.0,
+                "max": 0.01,
+                "type": "Float",
+                "decimal": 4,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_ROLLRATE_K": {
+                "def": 1.0,
+                "cur": 1.0,
+                "min": 0.01,
+                "max": 5.0,
+                "type": "Float",
+                "decimal": 4,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_ROLLRATE_P": {
+                "def": 0.15,
+                "cur": 0.15,
+                "min": 0.01,
+                "max": 0.5,
+                "type": "Float",
+                "decimal": 3,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_YAWRATE_K": {
+                "def": 1.0,
+                "cur": 1.0,
+                "min": 0.0,
+                "max": 5.0,
+                "type": "Float",
+                "decimal": 4,
+                "values": null,
+                "is_enum": false
+            },
+            "MC_YAWRATE_P": {
+                "def": 0.2,
+                "cur": 0.2,
+                "min": 0.0,
+                "max": 0.6,
+                "type": "Float",
+                "decimal": 2,
+                "values": null,
+                "is_enum": false
+            },
+            "IMU_GYRO_CUTOFF": {
+                "def": 40.0,
+                "cur": 40.0,
+                "min": 0.0,
+                "max": 1000.0,
+                "type": "Float",
+                "decimal": null,
+                "values": null,
+                "is_enum": false
+            },
+            "IMU_GYRO_DNF_BW": {
+                "def": 15.0,
+                "cur": 15.0,
+                "min": 5.0,
+                "max": 30.0,
+                "type": "Float",
+                "decimal": null,
+                "values": null,
+                "is_enum": false
+            },
+            "IMU_GYRO_DNF_HMC": {
+                "def": 3,
+                "cur": 3,
+                "min": 1,
+                "max": 7,
+                "type": "Int32",
+                "decimal": null,
+                "values": null,
+                "is_enum": false
+            },
+            "IMU_GYRO_NF0_BW": {
+                "def": 20.0,
+                "cur": 20.0,
+                "min": 0.0,
+                "max": 100.0,
+                "type": "Float",
+                "decimal": null,
+                "values": null,
+                "is_enum": false
+            },
+            "IMU_GYRO_NF0_FRQ": {
+                "def": 0.0,
+                "cur": 0.0,
+                "min": 0.0,
+                "max": 1000.0,
+                "type": "Float",
+                "decimal": null,
+                "values": null,
+                "is_enum": false
+            },
+            "IMU_GYRO_NF1_BW": {
+                "def": 20.0,
+                "cur": 20.0,
+                "min": 0.0,
+                "max": 100.0,
+                "type": "Float",
+                "decimal": null,
+                "values": null,
+                "is_enum": false
+            },
+            "IMU_GYRO_NF1_FRQ": {
+                "def": 0.0,
+                "cur": 0.0,
+                "min": 0.0,
+                "max": 1000.0,
+                "type": "Float",
+                "decimal": null,
+                "values": null,
+                "is_enum": false
+            },
+            "IMU_GYRO_RATEMAX": {
+                "def": 400,
+                "cur": 800,
+                "min": 100,
+                "max": 2000,
+                "type": "Int32",
+                "decimal": null,
+                "values": [
+                    {
+                        "description": "100 Hz",
+                        "value": 100
+                    },
+                    {
+                        "description": "250 Hz",
+                        "value": 250
+                    },
+                    {
+                        "description": "400 Hz",
+                        "value": 400
+                    },
+                    {
+                        "description": "800 Hz",
+                        "value": 800
+                    },
+                    {
+                        "description": "1000 Hz",
+                        "value": 1000
+                    },
+                    {
+                        "description": "2000 Hz",
+                        "value": 2000
+                    }
+                ],
+                "is_enum": true
+            }
+        }
+    }
+}

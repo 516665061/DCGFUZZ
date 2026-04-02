@@ -1,0 +1,12 @@
+{
+  "CAL_AIR_TUBED_MM": {"min": 1.5, "max": 100.0, "step": 0.5},
+  "CAL_AIR_TUBELEN": {"min": 0.01, "max": 2.0, "step": 0.05},
+  "IMU_ACCEL_CUTOFF": {"min": 0.0, "max": 1000.0, "step": 5.6},
+  "IMU_DGYRO_CUTOFF": {"min": 0.0, "max": 1000.0, "step": 6.6},
+  "IMU_GYRO_CUTOFF": {"min": 0.0, "max": 1000.0, "step": 22.2},
+  "IMU_GYRO_DNF_BW": {"min": 5.0, "max": 30.0, "step": 2.3},
+  "IMU_GYRO_DNF_EN": {"min": 0, "max": 3, "step": 1},
+  "IMU_GYRO_DNF_HMC": {"min": 1, "max": 7, "step": 1},
+  "IMU_GYRO_NF0_BW": {"min": 0.0, "max": 100.0, "step": 2.2},
+  "IMU_GYRO_NF0_FRQ": {"min": 0.0, "max": 1000.0, "step": 5.6}
+}
