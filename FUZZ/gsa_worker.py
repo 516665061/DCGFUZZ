@@ -226,6 +226,10 @@ class GSAWorker(Node):
         """
         闭环注入逻辑：设置参数 -> 等待同步 -> 回读验证 -> 返回真实运行值
         """
+        if not self.params or len(self.params) == 0:
+            self.get_logger().info("⚠️ 本次任务没有需要注入的参数，跳过注入阶段。")
+            return {}
+        
         self.get_logger().info(f"💉 正在注入突变参数: {[(k, v) for k, v in self.params.items()]}")
         actual_injected = {}
         
@@ -235,7 +239,7 @@ class GSAWorker(Node):
 
             # 2. 注入参数
             success = self.px4.set_param(name, target_value)
-            time.sleep(0.3) # 给飞控物理写入的时间
+            time.sleep(0.05) # 给飞控物理写入的时间
             
             # 3. 回读 PX4 内部的原始真值 (如 0.52999997138)
             raw_actual = self.px4.get_param(name)
@@ -249,12 +253,11 @@ class GSAWorker(Node):
                 
                 if cleaned_val != target_value and round(float(raw_actual), 6) != round(float(target_value), 6):
                     self.get_logger().warn(f"⚠️ 参数 {name} 注入后回读值与目标不符！目标={target_value}，回读={cleaned_val}")
-                else:
-                    self.get_logger().info(f"✅ 参数 {name} 注入成功且回读验证通过: {cleaned_val}")
+                # else:
+                #     self.get_logger().info(f"✅ 参数 {name} 注入成功且回读验证通过: {cleaned_val}")
                 actual_injected[name] = cleaned_val
             else:
                 self.get_logger().error(f"❌ 无法从 PX4 获取参数 {name} 的回读值")
-        
         return actual_injected
 
     def run_experiment(self):
@@ -276,12 +279,13 @@ class GSAWorker(Node):
                 time.sleep(0.5)
 
 
-            self.restore_baseline()
+            # self.restore_baseline()
             # self.backup_baseline()
             time.sleep(1.0)
 
             # --- 核心修复：根据相位分离执行流 ---
             self.get_logger().info(f"🚀 开始执行 {self.mode} 阶段测试序列...")
+
 
             if self.mode == "Takeoff":
                 # 【起飞模式专属逻辑】：地面注入 -> 起飞 -> 监控
@@ -315,15 +319,16 @@ class GSAWorker(Node):
                 
                 self.get_logger().info("⏳ 等待飞行器在空中悬停稳定...")
                 time.sleep(5.0) 
-                self.save_current_params_list()
-                
-                # 空中注入突变参数
-                actual_params = self.inject_and_verify_params()
-                result["params"] = actual_params
-                # actual_params = {} # 先不注入参数，直接测试飞行稳定性，看看是否能成功完成任务
-                # if len(actual_params) == 0:
-                #     result["status"] = "INJECTION_FAILED"
-                #     return
+                if self.params is not None and len(self.params) > 0:
+                    self.save_current_params_list()
+                    
+                    # 空中注入突变参数
+                    actual_params = self.inject_and_verify_params()
+                    result["params"] = actual_params
+                    # actual_params = {} # 先不注入参数，直接测试飞行稳定性，看看是否能成功完成任务
+                    # if len(actual_params) == 0:
+                    #     result["status"] = "INJECTION_FAILED"
+                    #     return
             
                 if self.mode == "Mission":
                     self.upload_square_mission()
@@ -386,7 +391,8 @@ class GSAWorker(Node):
                 self.rate.sleep()
 
             # --- 任务圆满完成 ---
-            result["status"] = "SUCCESS" if len(actual_params) == len(self.params) else "PARTIAL_SUCCESS"
+            # result["status"] = "SUCCESS" if len(actual_params) == len(self.params) else "PARTIAL_SUCCESS"
+            result["status"] = "SUCCESS"
             result["metrics"]["survival_time"] = time.time() - start_test_time
             result["score"] = self.calculate_final_score(result, post_injection_log, crashed=False)
             self.get_logger().info(f"✅ Result: Score={result['score']:.4f} (Err={result['metrics']['mean_error']:.3f}, Var={result['metrics']['variance_sum']:.5f})")
@@ -397,7 +403,7 @@ class GSAWorker(Node):
         finally:
             if self.px4.state.connected:
                 self.px4.land()
-            self.restore_baseline()
+            #self.restore_baseline()
             self.save_result(result)
             time.sleep(1)
 

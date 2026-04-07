@@ -266,7 +266,7 @@ class FuzzMaster:
                 "params": {name: p['cur'] for name, p in self.active_params.items()}
             }
             # run_worker_task 需要返回 (score, crashed, success, metrics)
-            _, crashed, success, metrics = self.run_worker_task(task, is_calibration=True)
+            _, crashed, success, metrics = self.run_worker_task({}, is_calibration=True)
             
             if success and not crashed:
                 err_list.append(metrics['mean_error'])
@@ -303,7 +303,8 @@ class FuzzMaster:
         self.cleanup_rootfs()
         print("[Master] 正在启动仿真环境 (加速 + 无界面模式)...")
         speed_factor = 3
-        px4_cmd = f"cd {PX4_DIR} && PX4_SIM_SPEED_FACTOR={speed_factor} HEADLESS=1 make px4_sitl_default jmavsim"
+        # px4_cmd = f"cd {PX4_DIR} && PX4_SIM_SPEED_FACTOR={speed_factor} HEADLESS=1 make px4_sitl_default jmavsim"
+        px4_cmd = f"cd {PX4_DIR} && make px4_sitl_default jmavsim"
         subprocess.Popen(["gnome-terminal", "--title=PX4", "--", "bash", "-c", f"{px4_cmd}; exec bash"])
         time.sleep(10)
         mavros_cmd = "ros2 launch mavros px4.launch fcu_url:=udp://:14540@"

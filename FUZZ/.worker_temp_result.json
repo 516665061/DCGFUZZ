@@ -1,1 +1,1 @@
-{"id": 4, "mode": "Mission", "params": {}, "metrics": {"mean_error": 0.25681587556952085, "variance_sum": 0.01631196199023391, "survival_time": 40.00133943557739, "total_duration": 40.0}, "score": 28.938162223239384, "status": "PARTIAL_SUCCESS", "crashed": false}
+{"id": "CALIB", "mode": "Mission", "params": {}, "metrics": {"mean_error": 0.0, "variance_sum": 0.0, "survival_time": 0.0, "total_duration": 0.0}, "score": 0.0, "status": "ENV_ERROR_TAKEOFF", "crashed": false}
