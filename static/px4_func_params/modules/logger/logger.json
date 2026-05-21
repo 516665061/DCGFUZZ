@@ -1,0 +1,28 @@
+{
+    "initialize_topics": [
+        "SDLOG_MISSION",
+        "SDLOG_PROFILE"
+    ],
+    "run": [
+        "SDLOG_DIRS_MAX"
+    ],
+    "get_disable_boot_logging": [
+        "SDLOG_BOOT_BAT"
+    ],
+    "start_stop_logging": [
+        "SDLOG_MISSION"
+    ],
+    "get_log_file_name": [
+        "SDLOG_UTC_OFFSET",
+        "SDLOG_ALGORITHM"
+    ],
+    "start_log_file": [
+        "SDLOG_KEY",
+        "SDLOG_EXCH_KEY",
+        "SDLOG_ALGORITHM"
+    ],
+    "write_version": [
+        "SDLOG_UTC_OFFSET",
+        "SDLOG_UUID"
+    ]
+}

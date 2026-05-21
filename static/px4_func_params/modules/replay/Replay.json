@@ -1,0 +1,5 @@
+{
+    "run": [
+        "PX4_SIM_SPEED_FACTOR"
+    ]
+}

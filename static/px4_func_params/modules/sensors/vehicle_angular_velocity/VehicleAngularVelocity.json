@@ -1,0 +1,32 @@
+{
+    "UpdateSampleRate": [
+        "IMU_GYRO_RATEMAX"
+    ],
+    "ResetFilters": [
+        "IMU_DGYRO_CUTOFF",
+        "IMU_GYRO_NF1_BW",
+        "IMU_GYRO_NF0_BW",
+        "IMU_GYRO_NF0_FRQ",
+        "IMU_GYRO_CUTOFF",
+        "IMU_GYRO_NF1_FRQ"
+    ],
+    "ParametersUpdate": [
+        "IMU_GYRO_DNF_HMC",
+        "IMU_DGYRO_CUTOFF",
+        "IMU_GYRO_NF1_BW",
+        "IMU_GYRO_NF0_BW",
+        "IMU_GYRO_NF0_FRQ",
+        "IMU_GYRO_CUTOFF",
+        "IMU_GYRO_DNF_EN",
+        "IMU_GYRO_NF1_FRQ",
+        "IMU_GYRO_RATEMAX"
+    ],
+    "UpdateDynamicNotchEscRpm": [
+        "IMU_GYRO_DNF_EN",
+        "IMU_GYRO_DNF_MIN",
+        "IMU_GYRO_DNF_BW"
+    ],
+    "UpdateDynamicNotchFFT": [
+        "IMU_GYRO_DNF_EN"
+    ]
+}

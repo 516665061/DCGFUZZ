@@ -1,0 +1,5 @@
+{
+    "on_active": [
+        "VTO_LOITER_ALT"
+    ]
+}

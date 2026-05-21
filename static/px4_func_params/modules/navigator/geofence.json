@@ -1,0 +1,12 @@
+{
+    "isCloserThanMaxDistToHome": [
+        "GF_MAX_HOR_DIST"
+    ],
+    "isBelowMaxAltitude": [
+        "GF_MAX_VER_DIST"
+    ],
+    "isHomeRequired": [
+        "GF_MAX_VER_DIST",
+        "GF_MAX_HOR_DIST"
+    ]
+}

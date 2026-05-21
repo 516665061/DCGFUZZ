@@ -1,0 +1,6 @@
+{
+    "checkAndReport": [
+        "COM_RC_LOSS_T",
+        "NAV_DLL_ACT"
+    ]
+}

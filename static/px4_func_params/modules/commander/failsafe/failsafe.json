@@ -1,0 +1,18 @@
+{
+    "checkStateAndMode": [
+        "COM_RCL_EXCEPT",
+        "COM_ACT_FAIL_ACT",
+        "COM_SPOOLUP_TIME",
+        "COM_QC_ACT",
+        "NAV_DLL_ACT",
+        "COM_FLTT_LOW_ACT",
+        "COM_WIND_MAX_ACT",
+        "GF_ACTION",
+        "COM_LOW_BAT_ACT",
+        "COM_IMB_PROP_ACT",
+        "NAV_RCL_ACT",
+        "COM_LKDOWN_TKO",
+        "CBRK_FLIGHTTERM",
+        "COM_RC_IN_MODE"
+    ]
+}

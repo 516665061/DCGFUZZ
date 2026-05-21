@@ -1,0 +1,11 @@
+{
+    "generateSetpoints": [
+        "MPC_ACC_HOR",
+        "MPC_VEL_MAN_SIDE",
+        "MPC_VEL_MAN_BACK",
+        "MPC_VEL_MANUAL"
+    ],
+    "applyJerkLimit": [
+        "MPC_JERK_MAX"
+    ]
+}

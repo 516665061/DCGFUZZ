@@ -1,0 +1,14 @@
+{
+    "setPositionSmootherLimits": [
+        "MPC_ACC_HOR",
+        "MPC_Z_V_AUTO_DN",
+        "MPC_ACC_DOWN_MAX",
+        "MPC_Z_V_AUTO_UP",
+        "MPC_ACC_UP_MAX",
+        "MPC_XY_CRUISE"
+    ],
+    "setHeadingSmootherLimits": [
+        "MPC_YAWRAUTO_MAX",
+        "MPC_YAWRAUTO_ACC"
+    ]
+}

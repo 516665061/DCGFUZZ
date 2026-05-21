@@ -1,0 +1,25 @@
+{
+    "initialize_params": [
+        "MNT_MAN_YAW",
+        "MNT_MAN_ROLL",
+        "MNT_MAN_PITCH",
+        "MNT_RANGE_ROLL",
+        "MNT_DO_STAB",
+        "MNT_OFF_PITCH",
+        "MAV_COMP_ID",
+        "MNT_RC_IN_MODE",
+        "MNT_RATE_YAW",
+        "MNT_MODE_OUT",
+        "MAV_SYS_ID",
+        "MNT_MAV_COMPID",
+        "MNT_LND_P_MIN",
+        "MNT_RANGE_PITCH",
+        "MNT_RANGE_YAW",
+        "MNT_LND_P_MAX",
+        "MNT_RATE_PITCH",
+        "MNT_OFF_YAW",
+        "MNT_MAV_SYSID",
+        "MNT_MODE_IN",
+        "MNT_OFF_ROLL"
+    ]
+}

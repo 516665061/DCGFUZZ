@@ -1,0 +1,17 @@
+{
+    "is_active": [
+        "CP_DIST"
+    ],
+    "_adaptSetpointDirection": [
+        "CP_GUIDE_ANG",
+        "CP_DIST"
+    ],
+    "_calculateConstrainedSetpoint": [
+        "MPC_ACC_HOR",
+        "CP_DIST",
+        "MPC_XY_P",
+        "CP_GO_NO_DATA",
+        "CP_DELAY",
+        "MPC_JERK_MAX"
+    ]
+}

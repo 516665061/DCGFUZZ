@@ -1,0 +1,13 @@
+{
+    "gpsInit": [
+        "LPE_EPH_MAX",
+        "LPE_EPV_MAX"
+    ],
+    "gpsCorrect": [
+        "LPE_GPS_VXY",
+        "LPE_GPS_VZ",
+        "LPE_GPS_Z",
+        "LPE_GPS_XY",
+        "LPE_GPS_DELAY"
+    ]
+}

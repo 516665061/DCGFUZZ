@@ -1,0 +1,35 @@
+{
+    "parameters_update": [
+        "GND_SPEED_P",
+        "GND_SPEED_I",
+        "GND_SPEED_IMAX",
+        "GND_L1_PERIOD",
+        "GND_SPEED_MAX",
+        "GND_SPEED_D",
+        "GND_L1_DAMPING"
+    ],
+    "manual_control_setpoint_poll": [
+        "GND_MAN_Y_MAX"
+    ],
+    "control_position": [
+        "GND_THR_CRUISE",
+        "GND_MAX_ANG",
+        "GND_SP_CTRL_MODE",
+        "GND_THR_MAX",
+        "GND_SPEED_TRIM",
+        "GND_SPEED_THR_SC",
+        "GND_WHEEL_BASE",
+        "NAV_LOITER_RAD",
+        "GND_THR_MIN"
+    ],
+    "control_velocity": [
+        "GND_THR_CRUISE",
+        "GND_MAX_ANG"
+    ],
+    "control_attitude": [
+        "GND_MAX_ANG"
+    ],
+    "Run": [
+        "GND_L1_DIST"
+    ]
+}

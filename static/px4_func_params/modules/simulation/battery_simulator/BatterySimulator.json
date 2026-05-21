@@ -1,0 +1,6 @@
+{
+    "Run": [
+        "SIM_BAT_MIN_PCT",
+        "SIM_BAT_DRAIN"
+    ]
+}

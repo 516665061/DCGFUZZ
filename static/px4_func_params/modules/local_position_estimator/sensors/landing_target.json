@@ -1,0 +1,12 @@
+{
+    "landingTargetInit": [
+        "LTEST_MODE"
+    ],
+    "landingTargetMeasure": [
+        "LTEST_MODE"
+    ],
+    "landingTargetCorrect": [
+        "LPE_LT_COV",
+        "LTEST_MODE"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "_updateTrajConstraintsXY": [
+        "MPC_ACC_HOR_MAX",
+        "MPC_VEL_MANUAL",
+        "MPC_JERK_MAX"
+    ],
+    "_updateTrajConstraintsZ": [
+        "MPC_ACC_UP_MAX",
+        "MPC_ACC_DOWN_MAX",
+        "MPC_JERK_MAX"
+    ]
+}

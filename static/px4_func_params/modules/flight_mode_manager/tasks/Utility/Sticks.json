@@ -1,0 +1,8 @@
+{
+    "checkAndUpdateStickInputs": [
+        "MPC_Z_MAN_EXPO",
+        "MPC_YAW_EXPO",
+        "MPC_HOLD_DZ",
+        "MPC_XY_MAN_EXPO"
+    ]
+}

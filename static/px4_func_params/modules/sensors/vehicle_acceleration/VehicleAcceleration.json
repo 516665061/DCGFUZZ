@@ -1,0 +1,6 @@
+{
+    "CheckAndUpdateFilters": [
+        "IMU_INTEG_RATE",
+        "IMU_ACCEL_CUTOFF"
+    ]
+}

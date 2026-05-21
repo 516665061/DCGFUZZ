@@ -1,0 +1,17 @@
+{
+    "update_allocation_method": [
+        "CA_METHOD"
+    ],
+    "update_effectiveness_source": [
+        "CA_AIRFRAME"
+    ],
+    "update_effectiveness_matrix_if_needed": [
+        "CA_R_REV"
+    ],
+    "publish_actuator_controls": [
+        "CA_R_REV"
+    ],
+    "check_for_motor_failures": [
+        "CA_FAILURE_MODE"
+    ]
+}

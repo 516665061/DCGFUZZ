@@ -1,0 +1,12 @@
+{
+    "ParametersUpdate": [
+        "SENS_FLOW_ROT"
+    ],
+    "Run": [
+        "SENS_FLOW_MAXR",
+        "SENS_FLOW_ROT",
+        "SENS_FLOW_MAXHGT",
+        "SENS_FLOW_MINHGT",
+        "SENS_FLOW_RATE"
+    ]
+}

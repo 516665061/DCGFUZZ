@@ -1,0 +1,6 @@
+{
+    "Run": [
+        "SENS_BARO_RATE",
+        "SENS_BARO_QNH"
+    ]
+}

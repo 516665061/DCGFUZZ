@@ -1,0 +1,7 @@
+{
+    "configure_gripper": [
+        "PD_GRIPPER_EN",
+        "PD_GRIPPER_TYPE",
+        "PD_GRIPPER_TO"
+    ]
+}

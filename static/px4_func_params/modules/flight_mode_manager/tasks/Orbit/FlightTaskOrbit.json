@@ -1,0 +1,31 @@
+{
+    "applyCommandParameters": [
+        "MC_ORBIT_RAD_MAX"
+    ],
+    "_sanitizeParams": [
+        "MC_ORBIT_RAD_MAX"
+    ],
+    "activate": [
+        "MPC_YAWRAUTO_MAX"
+    ],
+    "_updateTrajectoryBoundaries": [
+        "MPC_XY_ERR_MAX",
+        "MPC_ACC_HOR",
+        "MPC_Z_V_AUTO_DN",
+        "MPC_ACC_DOWN_MAX",
+        "MPC_XY_TRAJ_P",
+        "MPC_XY_VEL_MAX",
+        "MPC_JERK_AUTO",
+        "NAV_MC_ALT_RAD",
+        "MPC_Z_V_AUTO_UP",
+        "MPC_ACC_UP_MAX",
+        "MPC_XY_CRUISE"
+    ],
+    "_is_position_on_circle": [
+        "NAV_MC_ALT_RAD"
+    ],
+    "_adjustParametersByStick": [
+        "MPC_XY_CRUISE",
+        "MPC_ACC_HOR"
+    ]
+}

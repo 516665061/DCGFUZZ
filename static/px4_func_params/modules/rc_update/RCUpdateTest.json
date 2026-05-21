@@ -1,0 +1,13 @@
+{
+    "checkModeSlotSwitch": [
+        "RC_MAP_FLTMODE"
+    ],
+    "checkModeSlotButton": [
+        "RC_MAP_FLTM_BTN",
+        "RC_MAP_FLTMODE"
+    ],
+    "checkReturnSwitch": [
+        "RC_MAP_RETURN_SW",
+        "RC_RETURN_TH"
+    ]
+}

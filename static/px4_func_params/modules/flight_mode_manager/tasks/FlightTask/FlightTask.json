@@ -1,0 +1,6 @@
+{
+    "_setDefaultConstraints": [
+        "MPC_Z_VEL_MAX_UP",
+        "MPC_Z_VEL_MAX_DN"
+    ]
+}

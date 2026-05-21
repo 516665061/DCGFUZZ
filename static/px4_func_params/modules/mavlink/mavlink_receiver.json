@@ -1,0 +1,11 @@
+{
+    "handle_message_command_both": [
+        "FW_AT_START",
+        "MC_AT_START"
+    ],
+    "handle_message_battery_status": [
+        "BAT_CRIT_THR",
+        "BAT_EMERGEN_THR",
+        "BAT_LOW_THR"
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "_updateTrajConstraints": [
+        "MPC_ACC_UP_MAX",
+        "MPC_ACC_DOWN_MAX",
+        "MPC_JERK_MAX"
+    ]
+}

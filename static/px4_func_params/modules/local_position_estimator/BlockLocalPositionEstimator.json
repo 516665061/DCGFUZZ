@@ -1,0 +1,35 @@
+{
+    "Run": [
+        "LPE_FAKE_ORIGIN",
+        "LPE_Z_PUB",
+        "LPE_VXY_PUB",
+        "LPE_LON",
+        "LPE_LAT",
+        "LPE_FUSION"
+    ],
+    "landed": [
+        "LPE_FUSION"
+    ],
+    "publishLocalPos": [
+        "LPE_VXY_PUB",
+        "LPE_FUSION"
+    ],
+    "publishOdom": [
+        "LPE_FUSION"
+    ],
+    "publishGlobalPos": [
+        "LPE_VXY_PUB"
+    ],
+    "initP": [
+        "LPE_VXY_PUB"
+    ],
+    "updateSSParams": [
+        "LPE_T_MAX_GRADE",
+        "LPE_PN_T",
+        "LPE_PN_B",
+        "LPE_ACC_Z",
+        "LPE_PN_V",
+        "LPE_PN_P",
+        "LPE_ACC_XY"
+    ]
+}

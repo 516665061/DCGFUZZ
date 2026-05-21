@@ -1,0 +1,8 @@
+{
+    "checkAndReport": [
+        "COM_ARM_WO_GPS",
+        "COM_ARM_AUTH_REQ",
+        "CBRK_USB_CHK",
+        "CBRK_VTOLARMING"
+    ]
+}

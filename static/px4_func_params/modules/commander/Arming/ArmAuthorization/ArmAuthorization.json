@@ -1,0 +1,7 @@
+{
+    "arm_auth_param_update": [
+        "COM_ARM_AUTH_ID",
+        "COM_ARM_AUTH_MET",
+        "COM_ARM_AUTH_TO"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "sonarMeasure": [
+        "LPE_SNR_OFF_Z"
+    ],
+    "sonarCorrect": [
+        "LPE_SNR_Z"
+    ]
+}

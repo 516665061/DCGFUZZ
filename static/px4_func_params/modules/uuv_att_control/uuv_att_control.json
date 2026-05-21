@@ -1,0 +1,18 @@
+{
+    "control_attitude_geo": [
+        "UUV_ROLL_P",
+        "UUV_ROLL_D",
+        "UUV_YAW_P",
+        "UUV_PITCH_P",
+        "UUV_PITCH_D",
+        "UUV_YAW_D"
+    ],
+    "Run": [
+        "UUV_DIRCT_YAW",
+        "UUV_SKIP_CTRL",
+        "UUV_DIRCT_ROLL",
+        "UUV_DIRCT_THRUST",
+        "UUV_INPUT_MODE",
+        "UUV_DIRCT_PITCH"
+    ]
+}

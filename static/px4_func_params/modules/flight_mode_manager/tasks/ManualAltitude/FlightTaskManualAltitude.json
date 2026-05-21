@@ -1,0 +1,22 @@
+{
+    "_scaleSticks": [
+        "MPC_Z_VEL_MAX_UP",
+        "MPC_Z_VEL_MAX_DN"
+    ],
+    "_updateAltitudeLock": [
+        "MPC_ALT_MODE",
+        "MPC_HOLD_MAX_XY",
+        "MPC_HOLD_MAX_Z"
+    ],
+    "_respectMaxAltitude": [
+        "MPC_Z_VEL_MAX_UP",
+        "MPC_Z_P",
+        "MPC_Z_VEL_MAX_DN"
+    ],
+    "_respectGroundSlowdown": [
+        "MPC_LAND_ALT1",
+        "MPC_LAND_SPEED",
+        "MPC_LAND_ALT2",
+        "MPC_TKO_SPEED"
+    ]
+}

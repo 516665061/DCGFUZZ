@@ -1,0 +1,58 @@
+{
+    "reset": [
+        "MC_AT_START"
+    ],
+    "Run": [
+        "MC_AT_RISE_TIME"
+    ],
+    "checkFilters": [
+        "IMU_GYRO_CUTOFF"
+    ],
+    "updateStateMachine": [
+        "MC_PITCHRATE_P",
+        "MC_PITCHRATE_K",
+        "MC_YAWRATE_P",
+        "MC_AT_APPLY",
+        "MC_ROLLRATE_K",
+        "MC_AT_START",
+        "MC_YAWRATE_K",
+        "MC_ROLLRATE_P"
+    ],
+    "backupAndSaveGainsToParams": [
+        "MC_YAWRATE_I",
+        "MC_PITCHRATE_P",
+        "MC_PITCH_P",
+        "MC_PITCHRATE_K",
+        "MC_PITCHRATE_I",
+        "MC_YAWRATE_P",
+        "MC_ROLL_P",
+        "MC_YAW_P",
+        "MC_PITCHRATE_D",
+        "MC_YAWRATE_D",
+        "MC_ROLLRATE_D",
+        "MC_YAWRATE_K",
+        "MC_ROLLRATE_K",
+        "MC_ROLLRATE_I",
+        "MC_ROLLRATE_P"
+    ],
+    "saveGainsToParams": [
+        "MC_YAWRATE_I",
+        "MC_PITCHRATE_P",
+        "MC_PITCH_P",
+        "MC_PITCHRATE_K",
+        "MC_PITCHRATE_I",
+        "MC_YAWRATE_P",
+        "MC_ROLL_P",
+        "MC_ROLLRATE_K",
+        "MC_YAW_P",
+        "MC_PITCHRATE_D",
+        "MC_YAWRATE_D",
+        "MC_ROLLRATE_D",
+        "MC_YAWRATE_K",
+        "MC_ROLLRATE_P",
+        "MC_ROLLRATE_I"
+    ],
+    "stopAutotune": [
+        "MC_AT_START"
+    ]
+}

@@ -1,0 +1,6 @@
+{
+    "checkAndReport": [
+        "COM_ARM_IMU_ACC",
+        "COM_ARM_IMU_GYR"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "maybe_initialize_extra_stats": [
+        "AFL_DRIVER_EXTRA_STATS_FILENAME"
+    ],
+    "maybe_duplicate_stderr": [
+        "AFL_DRIVER_STDERR_DUPLICATE_FILENAME"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "UpdateErrorScores": [
+        "EKF2_SEL_IMU_ANG",
+        "EKF2_SEL_IMU_VEL",
+        "EKF2_SEL_IMU_RAT",
+        "EKF2_SEL_ERR_RED",
+        "EKF2_SEL_IMU_ACC"
+    ]
+}

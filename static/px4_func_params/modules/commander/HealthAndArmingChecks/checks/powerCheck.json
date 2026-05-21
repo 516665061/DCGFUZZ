@@ -1,0 +1,6 @@
+{
+    "checkAndReport": [
+        "COM_POWER_COUNT",
+        "CBRK_SUPPLY_CHK"
+    ]
+}

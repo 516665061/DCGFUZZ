@@ -1,0 +1,21 @@
+{
+    "update_vtol_state": [
+        "VT_B_TRANS_DUR"
+    ],
+    "update_transition_state": [
+        "VT_F_TRANS_DUR",
+        "VT_B_TRANS_DUR",
+        "FW_PSP_OFF"
+    ],
+    "fill_actuator_outputs": [
+        "VT_ELEV_MC_LOCK",
+        "VT_FW_DIFTHR_EN",
+        "VT_FW_DIFTHR_S_P",
+        "VT_FW_DIFTHR_S_Y",
+        "VT_FW_DIFTHR_S_R"
+    ],
+    "isFrontTransitionCompletedBase": [
+        "FW_USE_AIRSPD",
+        "VT_ARSP_TRANS"
+    ]
+}

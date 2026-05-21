@@ -1,0 +1,9 @@
+{
+    "run": [
+        "UXRCE_DDS_PTCFG",
+        "UXRCE_DDS_DOM_ID",
+        "UXRCE_DDS_SYNCC",
+        "UXRCE_DDS_SYNCT",
+        "UXRCE_DDS_KEY"
+    ]
+}

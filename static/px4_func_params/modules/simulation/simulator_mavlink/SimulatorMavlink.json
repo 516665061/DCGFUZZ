@@ -1,0 +1,14 @@
+{
+    "send_controls": [
+        "MAV_COMP_ID",
+        "MAV_SYS_ID"
+    ],
+    "request_hil_state_quaternion": [
+        "MAV_COMP_ID",
+        "MAV_SYS_ID"
+    ],
+    "send_heartbeat": [
+        "MAV_COMP_ID",
+        "MAV_SYS_ID"
+    ]
+}

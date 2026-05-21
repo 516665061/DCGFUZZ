@@ -1,0 +1,14 @@
+{
+    "InitializeVehicleAirData": [
+        "SYS_HAS_BARO"
+    ],
+    "InitializeVehicleGPSPosition": [
+        "SYS_HAS_GPS"
+    ],
+    "InitializeVehicleIMU": [
+        "SENS_IMU_MODE"
+    ],
+    "InitializeVehicleMagnetometer": [
+        "SYS_HAS_MAG"
+    ]
+}

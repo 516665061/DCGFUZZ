@@ -1,0 +1,6 @@
+{
+    "generateYawSetpoint": [
+        "MPC_MAN_Y_MAX",
+        "MPC_MAN_Y_TAU"
+    ]
+}

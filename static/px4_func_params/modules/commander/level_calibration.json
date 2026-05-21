@@ -1,0 +1,6 @@
+{
+    "do_level_calibration": [
+        "SENS_BOARD_Y_OFF",
+        "SENS_BOARD_X_OFF"
+    ]
+}

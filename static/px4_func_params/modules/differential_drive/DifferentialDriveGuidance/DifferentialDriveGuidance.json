@@ -1,0 +1,12 @@
+{
+    "computeGuidance": [
+        "RDD_MAX_JERK",
+        "RDD_MAX_ACCEL",
+        "NAV_ACC_RAD"
+    ],
+    "updateParams": [
+        "RDD_MAX_JERK",
+        "RDD_MAX_ACCEL",
+        "RDD_P_HEADING"
+    ]
+}

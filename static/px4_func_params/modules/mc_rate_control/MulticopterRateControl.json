@@ -1,0 +1,32 @@
+{
+    "parameters_updated": [
+        "MC_RR_INT_LIM",
+        "MC_ROLLRATE_K",
+        "MC_PITCHRATE_K",
+        "MC_YAWRATE_P",
+        "MC_PITCHRATE_FF",
+        "MC_ACRO_P_MAX",
+        "MC_PITCHRATE_D",
+        "MC_ACRO_Y_MAX",
+        "MC_YAWRATE_FF",
+        "MC_ROLLRATE_FF",
+        "MC_PITCHRATE_I",
+        "MC_YAWRATE_D",
+        "MC_ROLLRATE_D",
+        "MC_ROLLRATE_P",
+        "MC_ROLLRATE_I",
+        "MC_YAWRATE_I",
+        "MC_PITCHRATE_P",
+        "MC_PR_INT_LIM",
+        "MC_YR_INT_LIM",
+        "MC_ACRO_R_MAX",
+        "MC_YAWRATE_K"
+    ],
+    "Run": [
+        "MC_ACRO_SUPEXPO",
+        "MC_ACRO_EXPO_Y",
+        "MC_ACRO_SUPEXPOY",
+        "MC_BAT_SCALE_EN",
+        "MC_ACRO_EXPO"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "ParametersUpdate": [
+        "IMU_INTEG_RATE"
+    ],
+    "Run": [
+        "SENS_IMU_AUTOCAL"
+    ]
+}

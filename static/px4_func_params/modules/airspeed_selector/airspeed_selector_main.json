@@ -1,0 +1,41 @@
+{
+    "init": [
+        "ASPD_PRIMARY"
+    ],
+    "check_for_connected_airspeed_sensors": [
+        "ASPD_PRIMARY"
+    ],
+    "Run": [
+        "ASPD_SCALE_1",
+        "ASPD_SCALE_2",
+        "FW_AIRSPD_STALL",
+        "ASPD_SCALE_3",
+        "ASPD_SCALE_APPLY"
+    ],
+    "update_params": [
+        "ASPD_WIND_NSD",
+        "ASPD_SCALE_2",
+        "ASPD_SCALE_1",
+        "ASPD_TAS_NOISE",
+        "ASPD_SCALE_3",
+        "ASPD_FS_INTEG",
+        "ASPD_FS_T_STOP",
+        "FW_AIRSPD_STALL",
+        "ASPD_DO_CHECKS",
+        "ASPD_FS_INNOV",
+        "ASPD_BETA_NOISE",
+        "ASPD_TAS_GATE",
+        "ASPD_BETA_GATE",
+        "ASPD_SCALE_APPLY",
+        "ASPD_SCALE_NSD",
+        "ASPD_FS_T_START"
+    ],
+    "update_ground_minus_wind_airspeed": [
+        "ASPD_WERR_THR"
+    ],
+    "select_airspeed_and_publish": [
+        "ASPD_DO_CHECKS",
+        "ASPD_PRIMARY",
+        "ASPD_FALLBACK_GW"
+    ]
+}

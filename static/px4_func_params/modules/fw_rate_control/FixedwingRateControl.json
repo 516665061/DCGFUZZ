@@ -1,0 +1,58 @@
+{
+    "parameters_update": [
+        "FW_RR_I",
+        "FW_PR_IMAX",
+        "FW_YR_P",
+        "FW_YR_I",
+        "FW_RR_IMAX",
+        "FW_YR_IMAX",
+        "FW_YR_D",
+        "VT_FW_DIFTHR_EN",
+        "FW_PR_D",
+        "FW_PR_P",
+        "FW_PR_I",
+        "FW_RR_P",
+        "FW_RR_D"
+    ],
+    "vehicle_manual_poll": [
+        "FW_ACRO_Y_MAX",
+        "FW_MAN_Y_SC",
+        "FW_ACRO_X_MAX",
+        "TRIM_ROLL",
+        "TRIM_PITCH",
+        "TRIM_YAW",
+        "FW_ACRO_Z_MAX",
+        "FW_MAN_R_SC",
+        "FW_MAN_P_SC"
+    ],
+    "get_airspeed_and_update_scaling": [
+        "FW_AIRSPD_MAX",
+        "FW_USE_AIRSPD",
+        "FW_AIRSPD_TRIM",
+        "FW_ARSP_SCALE_EN",
+        "FW_AIRSPD_STALL"
+    ],
+    "Run": [
+        "FW_AIRSPD_MAX",
+        "FW_DTRIM_Y_VMIN",
+        "FW_AIRSPD_TRIM",
+        "FW_BAT_SCALE_EN",
+        "FW_YR_FF",
+        "FW_DTRIM_R_VMAX",
+        "FW_DTRIM_P_VMIN",
+        "FW_SPOILERS_MAN",
+        "VT_FW_DIFTHR_EN",
+        "TRIM_ROLL",
+        "TRIM_YAW",
+        "FW_DTRIM_P_VMAX",
+        "FW_ACRO_YAW_EN",
+        "TRIM_PITCH",
+        "FW_PR_FF",
+        "FW_RR_FF",
+        "FW_DTRIM_Y_VMAX",
+        "FW_RLL_TO_YAW_FF",
+        "FW_MAN_Y_SC",
+        "FW_DTRIM_R_VMIN",
+        "FW_AIRSPD_MIN"
+    ]
+}

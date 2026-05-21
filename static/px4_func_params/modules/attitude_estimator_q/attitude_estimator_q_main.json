@@ -1,0 +1,27 @@
+{
+    "update_gps_position": [
+        "ATT_MAG_DECL_A"
+    ],
+    "update_motion_capture_odometry": [
+        "ATT_EXT_HDG_M"
+    ],
+    "update_vehicle_local_position": [
+        "ATT_ACC_COMP"
+    ],
+    "update_visual_odometry": [
+        "ATT_EXT_HDG_M"
+    ],
+    "update_parameters": [
+        "SYS_HAS_MAG",
+        "ATT_MAG_DECL",
+        "ATT_W_MAG"
+    ],
+    "update": [
+        "ATT_W_EXT_HDG",
+        "ATT_EXT_HDG_M",
+        "ATT_W_GYRO_BIAS",
+        "ATT_ACC_COMP",
+        "ATT_W_ACC",
+        "ATT_W_MAG"
+    ]
+}

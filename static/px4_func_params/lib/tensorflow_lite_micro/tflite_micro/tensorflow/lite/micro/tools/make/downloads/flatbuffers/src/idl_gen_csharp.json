@@ -1,0 +1,10 @@
+{
+    "GenVerifyCall": [
+        "CPP_NAME",
+        "VECTOR_ELEM_INLINESIZE",
+        "REQUIRED_FLAG",
+        "ENUM_NAME1",
+        "TYPE_ID_OFFSET",
+        "ENUM_NAME"
+    ]
+}

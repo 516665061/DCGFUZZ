@@ -1,0 +1,53 @@
+{
+    "update": [
+        "COM_OBS_AVOID",
+        "MPC_YAW_MODE",
+        "MPC_LAND_RC_HELP"
+    ],
+    "_prepareLandSetpoints": [
+        "MPC_LAND_ALT2",
+        "MPC_LAND_RC_HELP",
+        "MPC_Z_VEL_MAX_DN",
+        "MPC_LAND_CRWL",
+        "MPC_LAND_ALT3",
+        "MPC_LAND_ALT1",
+        "MPC_LAND_SPEED",
+        "MPC_LAND_RADIUS"
+    ],
+    "_limitYawRate": [
+        "MPC_YAWRAUTO_MAX",
+        "MIS_YAW_ERR"
+    ],
+    "_evaluateTriplets": [
+        "COM_OBS_AVOID",
+        "MPC_XY_CRUISE",
+        "MPC_XY_VEL_MAX"
+    ],
+    "_set_heading_from_mode": [
+        "MPC_YAW_MODE"
+    ],
+    "_checkEmergencyBraking": [
+        "MPC_XY_VEL_MAX",
+        "MPC_Z_VEL_MAX_UP",
+        "MPC_Z_VEL_MAX_DN"
+    ],
+    "_updateTrajConstraints": [
+        "MPC_XY_ERR_MAX",
+        "MPC_ACC_HOR",
+        "MPC_Z_V_AUTO_DN",
+        "MPC_TKO_RAMP_T",
+        "MPC_ACC_DOWN_MAX",
+        "MPC_XY_VEL_MAX",
+        "MPC_XY_TRAJ_P",
+        "MPC_JERK_AUTO",
+        "NAV_MC_ALT_RAD",
+        "MPC_ACC_UP_MAX",
+        "MPC_Z_V_AUTO_UP",
+        "MPC_LAND_ALT1",
+        "MPC_TKO_SPEED"
+    ],
+    "updateParams": [
+        "MPC_LAND_ALT1",
+        "MPC_LAND_ALT2"
+    ]
+}

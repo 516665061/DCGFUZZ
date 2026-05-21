@@ -1,0 +1,5 @@
+{
+    "init": [
+        "PX4_GZ_STANDALONE"
+    ]
+}

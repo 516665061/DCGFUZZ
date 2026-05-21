@@ -1,0 +1,27 @@
+{
+    "GenStructReader": [
+        "ACCESS_TYPE"
+    ],
+    "GenTable": [
+        "ACCESS_TYPE"
+    ],
+    "GenTableAccessors": [
+        "OFFSET_VALUE",
+        "OFFSET_NAME"
+    ],
+    "GenObjectHeader": [
+        "SHORT_STRUCTNAME"
+    ],
+    "GenTableReaderVectorFields": [
+        "HAS_FIELDVAR"
+    ],
+    "GenerateUnionTypeVerifier": [
+        "FUNCTION_NAME"
+    ],
+    "GenEnum": [
+        "BASE_TYPE",
+        "ACCESS_TYPE",
+        "ENUM_NAME",
+        "ENUM_TYPE"
+    ]
+}

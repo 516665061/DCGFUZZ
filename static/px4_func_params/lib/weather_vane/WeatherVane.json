@@ -1,0 +1,10 @@
+{
+    "update": [
+        "WV_EN"
+    ],
+    "getWeathervaneYawrate": [
+        "WV_GAIN",
+        "WV_ROLL_MIN",
+        "WV_YRATE_MAX"
+    ]
+}

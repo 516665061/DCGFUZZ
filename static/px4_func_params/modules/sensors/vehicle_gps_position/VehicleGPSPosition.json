@@ -1,0 +1,7 @@
+{
+    "ParametersUpdate": [
+        "SENS_GPS_TAU",
+        "SENS_GPS_MASK",
+        "SENS_GPS_PRIME"
+    ]
+}

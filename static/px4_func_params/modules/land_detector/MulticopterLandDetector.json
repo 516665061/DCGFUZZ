@@ -1,0 +1,16 @@
+{
+    "_update_params": [
+        "LNDMC_Z_VEL_MAX"
+    ],
+    "_get_ground_contact_state": [
+        "LNDMC_Z_VEL_MAX",
+        "LNDMC_XY_VEL_MAX",
+        "LNDMC_ALT_GND"
+    ],
+    "_get_maybe_landed_state": [
+        "LNDMC_ROT_MAX"
+    ],
+    "_set_hysteresis_factor": [
+        "LNDMC_TRIG_TIME"
+    ]
+}

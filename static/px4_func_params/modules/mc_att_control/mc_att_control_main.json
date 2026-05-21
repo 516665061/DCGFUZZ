@@ -1,0 +1,26 @@
+{
+    "parameters_updated": [
+        "MC_ROLL_P",
+        "MPC_MAN_TILT_MAX",
+        "MC_PITCHRATE_MAX",
+        "MC_YAW_P",
+        "MC_YAWRATE_MAX",
+        "MC_PITCH_P",
+        "MC_YAW_WEIGHT",
+        "MC_ROLLRATE_MAX"
+    ],
+    "throttle_curve": [
+        "MPC_THR_CURVE",
+        "MPC_THR_MAX",
+        "MPC_THR_HOVER"
+    ],
+    "generate_attitude_setpoint": [
+        "MC_AIRMODE",
+        "MC_MAN_TILT_TAU",
+        "MPC_MAN_Y_MAX"
+    ],
+    "Run": [
+        "COM_SPOOLUP_TIME",
+        "MPC_MANTHR_MIN"
+    ]
+}

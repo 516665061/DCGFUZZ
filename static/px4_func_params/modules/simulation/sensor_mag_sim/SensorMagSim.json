@@ -1,0 +1,7 @@
+{
+    "Run": [
+        "SIM_MAG_OFFSET_Y",
+        "SIM_MAG_OFFSET_X",
+        "SIM_MAG_OFFSET_Z"
+    ]
+}

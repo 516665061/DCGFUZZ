@@ -1,0 +1,10 @@
+{
+    "check_airspeed_innovation": [
+        "ASPD_FS_INNOV",
+        "ASPD_FS_INTEG"
+    ],
+    "update_airspeed_valid_status": [
+        "ASPD_FS_T_START",
+        "ASPD_FS_T_STOP"
+    ]
+}

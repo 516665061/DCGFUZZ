@@ -1,0 +1,249 @@
+{
+    "parameters_update": [
+        "FW_GND_SPD_MIN",
+        "FW_T_VERT_ACC",
+        "NPFG_LB_PERIOD",
+        "FW_T_SPD_DEV_STD",
+        "NPFG_SW_DST_MLT",
+        "FW_T_RLL2THR",
+        "NPFG_WIND_REG",
+        "NPFG_ROLL_TC",
+        "NPFG_DAMPING",
+        "NPFG_UB_PERIOD",
+        "FW_T_THR_DAMPING",
+        "NPFG_GSP_MAX_TK",
+        "NPFG_PERIOD_SF",
+        "FW_T_I_GAIN_PIT",
+        "FW_T_SEB_R_FF",
+        "FW_T_ALT_TC",
+        "NPFG_PERIOD",
+        "FW_T_THR_INTEG",
+        "NPFG_TRACK_KEEP",
+        "NPFG_EN_MIN_GSP",
+        "FW_T_PTCH_DAMP",
+        "FW_T_SPD_PRC_STD",
+        "FW_T_SPDWEIGHT",
+        "FW_T_TAS_TC",
+        "FW_PN_R_SLEW_MAX",
+        "FW_T_HRATE_FF",
+        "FW_THR_SLEW_MAX",
+        "FW_R_LIM",
+        "FW_T_SINK_MAX",
+        "FW_T_STE_R_TC",
+        "FW_T_SPD_STD"
+    ],
+    "airspeed_poll": [
+        "FW_USE_AIRSPD"
+    ],
+    "manual_control_setpoint_poll": [
+        "FW_POS_STK_CONF"
+    ],
+    "get_manual_airspeed_setpoint": [
+        "FW_POS_STK_CONF"
+    ],
+    "adapt_airspeed_setpoint": [
+        "FW_WIND_ARSP_SC",
+        "FW_GND_SPD_MIN"
+    ],
+    "getManualHeightRateSetpoint": [
+        "FW_T_SINK_R_SP",
+        "FW_T_CLMB_R_SP"
+    ],
+    "set_control_mode_current": [
+        "FW_GPSF_LT",
+        "FW_R_LIM"
+    ],
+    "control_auto": [
+        "FW_PSP_OFF",
+        "FW_THR_IDLE"
+    ],
+    "control_auto_fixed_bank_alt_hold": [
+        "FW_T_CLMB_R_SP",
+        "FW_GPSF_R",
+        "FW_T_SINK_R_SP",
+        "FW_THR_MIN",
+        "FW_P_LIM_MIN",
+        "FW_THR_MAX",
+        "FW_P_LIM_MAX"
+    ],
+    "control_auto_descend": [
+        "FW_T_CLMB_R_SP",
+        "FW_GPSF_R",
+        "FW_T_SINK_R_SP",
+        "FW_THR_MIN",
+        "FW_P_LIM_MIN",
+        "FW_THR_MAX",
+        "FW_P_LIM_MAX"
+    ],
+    "control_auto_position": [
+        "FW_T_CLMB_R_SP",
+        "FW_T_SINK_R_SP",
+        "FW_THR_MIN",
+        "FW_P_LIM_MIN",
+        "FW_THR_MAX",
+        "FW_P_LIM_MAX"
+    ],
+    "control_auto_velocity": [
+        "FW_T_CLMB_R_SP",
+        "FW_T_SINK_R_SP",
+        "FW_THR_MIN",
+        "FW_P_LIM_MIN",
+        "FW_THR_MAX",
+        "FW_P_LIM_MAX"
+    ],
+    "control_auto_loiter": [
+        "FW_THR_MAX",
+        "FW_FLAPS_LND_SCL",
+        "FW_LND_AIRSPD",
+        "FW_T_CLMB_R_SP",
+        "FW_SPOILERS_LND",
+        "FW_T_SINK_R_SP",
+        "FW_THR_MIN",
+        "FW_LND_THRTC_SC",
+        "FW_P_LIM_MIN",
+        "FW_LND_EARLYCFG",
+        "NAV_LOITER_RAD",
+        "FW_T_ALT_TC",
+        "FW_P_LIM_MAX"
+    ],
+    "controlAutoFigureEight": [
+        "FW_T_CLMB_R_SP",
+        "FW_T_SINK_R_SP",
+        "FW_THR_MIN",
+        "FW_P_LIM_MIN",
+        "FW_THR_MAX",
+        "FW_P_LIM_MAX"
+    ],
+    "control_auto_path": [
+        "FW_T_CLMB_R_SP",
+        "FW_T_SINK_R_SP",
+        "FW_THR_MIN",
+        "FW_P_LIM_MIN",
+        "FW_THR_MAX",
+        "FW_P_LIM_MAX"
+    ],
+    "control_auto_takeoff": [
+        "FW_TKO_AIRSPD",
+        "FW_THR_IDLE",
+        "RWTO_NUDGE",
+        "FW_LAUN_DETCN_ON",
+        "FW_T_SINK_R_SP",
+        "RWTO_NPFG_PERIOD",
+        "FW_THR_MIN",
+        "FW_TKO_PITCH_MIN",
+        "FW_P_LIM_MIN",
+        "FW_FLAPS_TO_SCL",
+        "FW_THR_MAX",
+        "FW_P_LIM_MAX"
+    ],
+    "control_auto_landing_straight": [
+        "FW_T_SINK_R_SP",
+        "FW_LND_THRTC_SC",
+        "FW_LND_FL_PMAX",
+        "FW_THR_IDLE",
+        "FW_T_CLMB_R_SP",
+        "FW_LND_FL_PMIN",
+        "FW_T_ALT_TC",
+        "FW_LND_USETER",
+        "NPFG_PERIOD",
+        "FW_LND_AIRSPD",
+        "FW_LND_ABORT",
+        "FW_SPOILERS_LND",
+        "FW_LND_FLALT",
+        "FW_THR_MIN",
+        "FW_P_LIM_MIN",
+        "FW_THR_MAX",
+        "RWTO_PSP",
+        "FW_FLAPS_LND_SCL",
+        "FW_LND_TD_TIME",
+        "RWTO_NPFG_PERIOD",
+        "FW_T_SINK_MAX",
+        "FW_LND_FL_TIME",
+        "FW_LND_FL_SINK",
+        "FW_LND_NUDGE",
+        "FW_P_LIM_MAX"
+    ],
+    "control_auto_landing_circular": [
+        "FW_T_SINK_R_SP",
+        "FW_LND_THRTC_SC",
+        "FW_LND_FL_PMAX",
+        "FW_THR_IDLE",
+        "FW_T_CLMB_R_SP",
+        "FW_LND_FL_PMIN",
+        "NAV_LOITER_RAD",
+        "FW_T_ALT_TC",
+        "NPFG_PERIOD",
+        "FW_LND_AIRSPD",
+        "FW_LND_ABORT",
+        "FW_SPOILERS_LND",
+        "FW_LND_FLALT",
+        "FW_THR_MIN",
+        "FW_P_LIM_MIN",
+        "FW_LND_ANG",
+        "FW_THR_MAX",
+        "RWTO_PSP",
+        "FW_FLAPS_LND_SCL",
+        "FW_LND_TD_TIME",
+        "RWTO_NPFG_PERIOD",
+        "FW_T_SINK_MAX",
+        "FW_LND_FL_TIME",
+        "FW_LND_FL_SINK",
+        "FW_LND_NUDGE",
+        "FW_P_LIM_MAX"
+    ],
+    "control_manual_altitude": [
+        "FW_T_CLMB_R_SP",
+        "FW_T_SINK_R_SP",
+        "FW_THR_MIN",
+        "FW_R_LIM",
+        "FW_P_LIM_MIN",
+        "FW_THR_MAX",
+        "FW_P_LIM_MAX"
+    ],
+    "control_manual_position": [
+        "FW_T_CLMB_R_SP",
+        "FW_T_SINK_R_SP",
+        "FW_THR_MIN",
+        "FW_R_LIM",
+        "FW_P_LIM_MIN",
+        "FW_THR_MAX",
+        "FW_P_LIM_MAX"
+    ],
+    "control_backtransition": [
+        "FW_T_CLMB_R_SP",
+        "FW_T_SINK_R_SP",
+        "FW_THR_MIN",
+        "FW_P_LIM_MIN",
+        "FW_THR_MAX",
+        "FW_P_LIM_MAX"
+    ],
+    "get_tecs_pitch": [
+        "FW_PSP_OFF"
+    ],
+    "Run": [
+        "NPFG_PERIOD",
+        "FW_T_ALT_TC",
+        "FW_R_LIM",
+        "FW_P_LIM_MIN",
+        "FW_THR_MAX",
+        "FW_T_SPDWEIGHT",
+        "FW_P_LIM_MAX"
+    ],
+    "tecs_update_pitch_throttle": [
+        "NAV_FW_ALT_RAD",
+        "FW_PSP_OFF"
+    ],
+    "constrainRollNearGround": [
+        "FW_WING_HEIGHT",
+        "FW_WING_SPAN"
+    ],
+    "initializeAutoLanding": [
+        "FW_LND_ANG"
+    ],
+    "getLandingTerrainAltitudeEstimate": [
+        "FW_LND_USETER"
+    ],
+    "publishOrbitStatus": [
+        "NAV_LOITER_RAD"
+    ]
+}

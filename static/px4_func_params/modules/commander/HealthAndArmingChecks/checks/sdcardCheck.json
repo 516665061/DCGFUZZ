@@ -1,0 +1,6 @@
+{
+    "checkAndReport": [
+        "COM_ARM_HFLT_CHK",
+        "COM_ARM_SDCARD"
+    ]
+}

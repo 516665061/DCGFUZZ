@@ -1,0 +1,6 @@
+{
+    "dsm_parse": [
+        "DSM_DECODE_STATE_DESYNC",
+        "DSM_DECODE_STATE_SYNC"
+    ]
+}

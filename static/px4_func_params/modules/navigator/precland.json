@@ -1,0 +1,19 @@
+{
+    "on_active": [
+        "PLD_BTOUT"
+    ],
+    "run_state_start": [
+        "PLD_SRCH_TOUT"
+    ],
+    "run_state_search": [
+        "PLD_SRCH_TOUT"
+    ],
+    "switch_to_state_search": [
+        "PLD_SRCH_ALT"
+    ],
+    "check_state_conditions": [
+        "PLD_MAX_SRCH",
+        "PLD_HACC_RAD",
+        "PLD_FAPPR_ALT"
+    ]
+}

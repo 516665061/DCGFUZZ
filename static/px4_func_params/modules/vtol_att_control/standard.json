@@ -1,0 +1,20 @@
+{
+    "parameters_update": [
+        "VT_B_TRANS_RAMP",
+        "VT_B_TRANS_DUR"
+    ],
+    "update_vtol_state": [
+        "MPC_XY_CRUISE",
+        "VT_B_TRANS_DUR"
+    ],
+    "update_transition_state": [
+        "FW_USE_AIRSPD",
+        "FW_PSP_OFF",
+        "VT_PSHER_SLEW",
+        "VT_F_TRANS_THR",
+        "VT_B_TRANS_RAMP"
+    ],
+    "fill_actuator_outputs": [
+        "VT_ELEV_MC_LOCK"
+    ]
+}

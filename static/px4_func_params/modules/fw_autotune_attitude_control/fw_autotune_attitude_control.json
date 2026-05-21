@@ -1,0 +1,50 @@
+{
+    "reset": [
+        "FW_AT_START"
+    ],
+    "checkFilters": [
+        "IMU_GYRO_CUTOFF"
+    ],
+    "isAuxEnableSwitchEnabled": [
+        "FW_AT_MAN_AUX"
+    ],
+    "updateStateMachine": [
+        "FW_AT_START",
+        "FW_AT_MAN_AUX",
+        "FW_YR_P",
+        "FW_AT_APPLY",
+        "FW_PR_P",
+        "FW_AT_AXES",
+        "FW_RR_P"
+    ],
+    "areGainsGood": [
+        "FW_AT_AXES"
+    ],
+    "backupAndSaveGainsToParams": [
+        "FW_RR_I",
+        "FW_YR_P",
+        "FW_YR_I",
+        "FW_PR_FF",
+        "FW_YR_FF",
+        "FW_PR_P",
+        "FW_RR_P",
+        "FW_P_TC",
+        "FW_R_TC",
+        "FW_RR_FF",
+        "FW_PR_I"
+    ],
+    "saveGainsToParams": [
+        "FW_RR_I",
+        "FW_YR_P",
+        "FW_YR_I",
+        "FW_PR_FF",
+        "FW_YR_FF",
+        "FW_PR_P",
+        "FW_AT_AXES",
+        "FW_RR_P",
+        "FW_P_TC",
+        "FW_R_TC",
+        "FW_RR_FF",
+        "FW_PR_I"
+    ]
+}

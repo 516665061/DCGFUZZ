@@ -1,0 +1,11 @@
+{
+    "updateStartDelay": [
+        "COM_FAIL_ACT_T"
+    ],
+    "updateParams": [
+        "COM_FAIL_ACT_T"
+    ],
+    "checkFailsafe": [
+        "COM_FAIL_ACT_T"
+    ]
+}

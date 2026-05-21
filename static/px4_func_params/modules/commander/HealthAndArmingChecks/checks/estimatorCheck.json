@@ -1,0 +1,26 @@
+{
+    "checkAndReport": [
+        "SENS_IMU_MODE",
+        "EKF2_EN"
+    ],
+    "checkEstimatorStatus": [
+        "COM_ARM_MAG_STR",
+        "SYS_HAS_GPS",
+        "COM_ARM_WO_GPS",
+        "COM_ARM_EKF_HGT",
+        "COM_ARM_EKF_YAW",
+        "COM_ARM_EKF_VEL",
+        "COM_ARM_EKF_POS"
+    ],
+    "lowPositionAccuracy": [
+        "COM_POS_LOW_EPH"
+    ],
+    "setModeRequirementFlags": [
+        "COM_POS_FS_DELAY",
+        "COM_VEL_FS_EVH",
+        "COM_POS_FS_EPH"
+    ],
+    "checkPosVelValidity": [
+        "COM_POS_FS_DELAY"
+    ]
+}

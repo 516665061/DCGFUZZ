@@ -1,0 +1,8 @@
+{
+    "checkAndReport": [
+        "COM_ARM_CHK_ESCS"
+    ],
+    "checkEscStatus": [
+        "COM_ARM_CHK_ESCS"
+    ]
+}

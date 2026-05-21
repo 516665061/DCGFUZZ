@@ -1,0 +1,14 @@
+{
+    "getCruiseSpeed": [
+        "MPC_XY_CRUISE"
+    ],
+    "getHoverLandSpeed": [
+        "MPC_LAND_SPEED"
+    ],
+    "getClimbRate": [
+        "MPC_Z_V_AUTO_UP"
+    ],
+    "getDescendRate": [
+        "MPC_Z_V_AUTO_DN"
+    ]
+}

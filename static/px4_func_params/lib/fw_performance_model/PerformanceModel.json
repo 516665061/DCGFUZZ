@@ -1,0 +1,41 @@
+{
+    "getWeightRatio": [
+        "WEIGHT_BASE",
+        "WEIGHT_GROSS"
+    ],
+    "getMaximumClimbRate": [
+        "FW_SERVICE_CEIL",
+        "FW_T_CLMB_MAX"
+    ],
+    "getTrimThrottleForCalibratedAirspeed": [
+        "FW_AIRSPD_MAX",
+        "FW_THR_ASPD_MAX",
+        "FW_AIRSPD_TRIM",
+        "FW_THR_ASPD_MIN",
+        "FW_THR_TRIM",
+        "FW_AIRSPD_MIN"
+    ],
+    "getMinimumSinkRate": [
+        "FW_T_SINK_MIN"
+    ],
+    "getCalibratedTrimAirspeed": [
+        "FW_AIRSPD_MAX",
+        "FW_AIRSPD_MIN",
+        "FW_AIRSPD_TRIM"
+    ],
+    "getMinimumCalibratedAirspeed": [
+        "FW_AIRSPD_MIN"
+    ],
+    "getCalibratedStallAirspeed": [
+        "FW_AIRSPD_STALL"
+    ],
+    "getMaximumCalibratedAirspeed": [
+        "FW_AIRSPD_MAX"
+    ],
+    "runSanityChecks": [
+        "FW_AIRSPD_MAX",
+        "FW_AIRSPD_MIN",
+        "FW_AIRSPD_TRIM",
+        "FW_AIRSPD_STALL"
+    ]
+}

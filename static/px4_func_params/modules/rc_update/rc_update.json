@@ -1,0 +1,57 @@
+{
+    "updateParams": [
+        "RC_MAP_STAB_SW",
+        "RC_MAP_MAN_SW",
+        "RC_MAP_RATT_SW",
+        "RC_MAP_ACRO_SW",
+        "RC_MAP_YAW",
+        "RC_MAP_THROTTLE",
+        "RC_MAP_PITCH",
+        "RC_MAP_MODE_SW",
+        "RC_MAP_POSCTL_SW",
+        "RC_MAP_ROLL",
+        "RC_CHAN_CNT"
+    ],
+    "update_rc_functions": [
+        "RC_MAP_AUX1",
+        "RC_MAP_ARM_SW",
+        "RC_MAP_AUX4",
+        "RC_MAP_RETURN_SW",
+        "RC_MAP_AUX3",
+        "RC_MAP_KILL_SW",
+        "RC_MAP_YAW",
+        "RC_MAP_AUX2",
+        "RC_MAP_AUX6",
+        "RC_MAP_TRANS_SW",
+        "RC_MAP_FLAPS",
+        "RC_MAP_AUX5",
+        "RC_MAP_THROTTLE",
+        "RC_MAP_PITCH",
+        "RC_MAP_ENG_MOT",
+        "RC_MAP_GEAR_SW",
+        "RC_MAP_LOITER_SW",
+        "RC_MAP_OFFB_SW",
+        "RC_MAP_ROLL",
+        "RC_MAP_PAY_SW"
+    ],
+    "map_flight_modes_buttons": [
+        "RC_MAP_FLTM_BTN"
+    ],
+    "Run": [
+        "RC_FAILS_THR",
+        "RC_MAP_FAILSAFE"
+    ],
+    "UpdateManualSwitches": [
+        "RC_MAP_FLTM_BTN",
+        "RC_GEAR_TH",
+        "RC_OFFB_TH",
+        "RC_ARMSWITCH_TH",
+        "RC_MAP_FLTMODE",
+        "RC_LOITER_TH",
+        "RC_RETURN_TH",
+        "RC_TRANS_TH",
+        "RC_ENG_MOT_TH",
+        "RC_KILLSWITCH_TH",
+        "RC_PAYLOAD_TH"
+    ]
+}

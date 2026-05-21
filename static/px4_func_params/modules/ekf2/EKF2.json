@@ -1,0 +1,58 @@
+{
+    "multi_init": [
+        "EKF2_MAG_TYPE",
+        "EKF2_GPS_CTRL",
+        "EKF2_IMU_CTRL",
+        "EKF2_EV_CTRL",
+        "EKF2_RNG_CTRL",
+        "EKF2_BARO_CTRL"
+    ],
+    "Run": [
+        "EKF2_IMU_POS_Y",
+        "ASPD_SCALE_1",
+        "EKF2_REQ_GPS_H",
+        "EKF2_TAU_POS",
+        "EKF2_IMU_POS_X",
+        "EKF2_IMU_POS_Z",
+        "EKF2_TAU_VEL"
+    ],
+    "VerifyParams": [
+        "EKF2_DELAY_MAX",
+        "EKF2_BARO_DELAY",
+        "EKF2_ASP_DELAY",
+        "EKF2_MAG_TYPE",
+        "EKF2_AVEL_DELAY",
+        "EKF2_MAG_DELAY",
+        "EKF2_RNG_DELAY",
+        "EKF2_EV_DELAY",
+        "EKF2_GPS_DELAY",
+        "EKF2_OF_DELAY"
+    ],
+    "PublishSensorBias": [
+        "EKF2_IMU_CTRL"
+    ],
+    "UpdateExtVisionSample": [
+        "EKF2_EVV_NOISE",
+        "EKF2_EVA_NOISE",
+        "EKF2_EV_NOISE_MD",
+        "EKF2_EVP_NOISE"
+    ],
+    "UpdateSystemFlagsSample": [
+        "EKF2_FUSE_BETA"
+    ],
+    "UpdateAccelCalibration": [
+        "EKF2_IMU_CTRL"
+    ],
+    "UpdateGyroCalibration": [
+        "EKF2_IMU_CTRL"
+    ],
+    "UpdateMagCalibration": [
+        "EKF2_MAG_DECL"
+    ],
+    "task_spawn": [
+        "SENS_MAG_MODE",
+        "SENS_IMU_MODE",
+        "EKF2_MULTI_IMU",
+        "EKF2_MULTI_MAG"
+    ]
+}

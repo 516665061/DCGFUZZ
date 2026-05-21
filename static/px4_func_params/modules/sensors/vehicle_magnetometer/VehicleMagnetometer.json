@@ -1,0 +1,14 @@
+{
+    "ParametersUpdate": [
+        "CAL_MAG_SIDES",
+        "CAL_MAG_COMP_TYP",
+        "SENS_MAG_SIDES"
+    ],
+    "UpdateMagBiasEstimate": [
+        "SENS_MAG_AUTOCAL"
+    ],
+    "Run": [
+        "SENS_MAG_MODE",
+        "SENS_MAG_RATE"
+    ]
+}

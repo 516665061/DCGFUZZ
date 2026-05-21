@@ -1,0 +1,10 @@
+{
+    "do_trim_calibration": [
+        "FW_MAN_Y_SC",
+        "TRIM_PITCH",
+        "TRIM_ROLL",
+        "TRIM_YAW",
+        "FW_MAN_R_SC",
+        "FW_MAN_P_SC"
+    ]
+}

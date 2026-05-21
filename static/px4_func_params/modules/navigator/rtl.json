@@ -1,0 +1,19 @@
+{
+    "setRtlTypeAndDestination": [
+        "RTL_TYPE"
+    ],
+    "findRtlDestination": [
+        "RTL_RETURN_ALT",
+        "RTL_APPR_FORCE",
+        "RTL_CONE_ANG",
+        "RTL_TYPE"
+    ],
+    "calculate_return_alt_from_cone_half_angle": [
+        "RTL_RETURN_ALT",
+        "RTL_MIN_DIST",
+        "NAV_ACC_RAD"
+    ],
+    "init_rtl_mission_type": [
+        "RTL_TYPE"
+    ]
+}

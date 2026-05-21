@@ -1,0 +1,29 @@
+{
+    "processInput": [
+        "COM_RC_STICK_OV"
+    ],
+    "processSwitches": [
+        "COM_ARM_SWISBTN"
+    ],
+    "updateParams": [
+        "MAN_KILL_GEST_T",
+        "MC_AIRMODE",
+        "COM_RC_IN_MODE",
+        "RC_MAP_ARM_SW",
+        "COM_RC_LOSS_T",
+        "COM_RC_ARM_HYST",
+        "MAN_ARM_GESTURE"
+    ],
+    "processStickArming": [
+        "MAN_KILL_GEST_T",
+        "MAN_ARM_GESTURE"
+    ],
+    "evaluateModeSlot": [
+        "COM_FLTMODE5",
+        "COM_FLTMODE2",
+        "COM_FLTMODE1",
+        "COM_FLTMODE6",
+        "COM_FLTMODE4",
+        "COM_FLTMODE3"
+    ]
+}

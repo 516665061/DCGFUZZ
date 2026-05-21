@@ -1,0 +1,222 @@
+{
+    "generate_bfbs_embed": [
+        "STRUCT_NAME"
+    ],
+    "generate": [
+        "CPP_NAME",
+        "NULLABLE_EXT",
+        "SIZE_T",
+        "STRUCT_NAME",
+        "UNPACK_RETURN",
+        "UNPACK_TYPE"
+    ],
+    "GenMiniReflect": [
+        "ST_ENUM",
+        "ST_TABLE",
+        "NUM_FIELDS",
+        "SEQ_TYPE",
+        "ST_STRUCT",
+        "ST_UNION"
+    ],
+    "GenEnum": [
+        "BASE_TYPE",
+        "ENUM_NAME"
+    ],
+    "GenEnumObjectBasedAPI": [
+        "CPP_NAME",
+        "FIELD_DI",
+        "LHS_PREFIX",
+        "STRUCT_NAME",
+        "ENUM_NAME",
+        "VEC_COPY",
+        "FIELD_NAME",
+        "CMP_LHS",
+        "FLATBUFFERS_CONSTEXPR_CPP11",
+        "OFFSET_SIZE",
+        "NATIVE_NAME",
+        "PARAM_VALUE",
+        "CURR_FIELD_NAME",
+        "PARAM_NAME",
+        "INIT_LIST",
+        "CMP_OP",
+        "FIELD_TYPE",
+        "NATIVE_TYPE",
+        "VT_",
+        "NATIVE_ID",
+        "CMP_RHS",
+        "RHS_PREFIX",
+        "PARAM_TYPE"
+    ],
+    "GenEnumEquals": [
+        "NATIVE_TYPE",
+        "NATIVE_ID"
+    ],
+    "GenUnionPost": [
+        "ENUM_NAME"
+    ],
+    "GenFullyQualifiedNameGetter": [
+        "FLATBUFFERS_CONSTEXPR_CPP11"
+    ],
+    "GenParam": [
+        "PARAM_VALUE",
+        "PARAM_NAME",
+        "PARAM_TYPE"
+    ],
+    "GenMember": [
+        "FIELD_TYPE",
+        "FIELD_DI",
+        "FIELD_NAME"
+    ],
+    "GenDefaultConstructor": [
+        "INIT_LIST",
+        "NATIVE_NAME"
+    ],
+    "GenCopyMoveCtorAndAssigOpDecls": [
+        "NATIVE_NAME"
+    ],
+    "GenCopyCtorAssignOpDefs": [
+        "INIT_LIST",
+        "VEC_COPY",
+        "NATIVE_NAME"
+    ],
+    "GenCompareOperator": [
+        "CMP_LHS",
+        "CMP_OP",
+        "CMP_RHS"
+    ],
+    "GenNativeTable": [
+        "STRUCT_NAME",
+        "NATIVE_NAME"
+    ],
+    "GenNativeTablePost": [
+        "STRUCT_NAME",
+        "NATIVE_NAME"
+    ],
+    "GenVerifyCall": [
+        "CPP_NAME",
+        "OFFSET_SIZE",
+        "ENUM_NAME"
+    ],
+    "GenComparatorForStruct": [
+        "CURR_FIELD_NAME",
+        "RHS_PREFIX",
+        "LHS_PREFIX"
+    ],
+    "GenTableUnionAsGetters": [
+        "U_ELEMENT_TYPE",
+        "U_NULLABLE",
+        "U_FIELD_TYPE",
+        "U_GET_TYPE",
+        "U_FIELD_NAME"
+    ],
+    "GenTableFieldGetter": [
+        "FIELD_TYPE",
+        "FIELD_VALUE",
+        "NULLABLE_EXT"
+    ],
+    "GenTableFieldType": [
+        "FIELD_TYPE"
+    ],
+    "GenStructFieldType": [
+        "FIELD_TYPE"
+    ],
+    "GenIndexBasedFieldGetter": [
+        "FIELD_INDEX",
+        "FIELD_NAME"
+    ],
+    "GenFieldNames": [
+        "FIELD_NAME"
+    ],
+    "GenFieldsNumber": [
+        "FIELD_COUNT"
+    ],
+    "GenTraitsStruct": [
+        "FULLY_QUALIFIED_NAME"
+    ],
+    "GenTableFieldSetter": [
+        "CPP_NAME",
+        "DEFAULT_VALUE",
+        "INTERFACE_DEFAULT_VALUE",
+        "STRUCT_NAME",
+        "ADD_VALUE",
+        "CREATE_NAME",
+        "CREATE_STRING",
+        "SET_FN",
+        "OFFSET_VALUE",
+        "FIELD_NAME",
+        "NATIVE_NAME",
+        "U_FIELD_NAME",
+        "FIELD_VALUE",
+        "STRUCT_BYTE_SIZE",
+        "ADD_NAME",
+        "INIT_LIST",
+        "FIELD_TYPE",
+        "POINTER_TYPE",
+        "U_ELEMENT_TYPE",
+        "OFFSET_NAME",
+        "ADD_OFFSET",
+        "U_ELEMENT_NAME",
+        "ARG_LIST",
+        "U_FIELD_TYPE",
+        "ADD_FN"
+    ],
+    "GenTable": [
+        "CPP_NAME",
+        "OFFSET_NAME",
+        "U_ELEMENT_TYPE",
+        "OFFSET_VALUE",
+        "U_ELEMENT_NAME",
+        "FIELD_NAME",
+        "U_FIELD_TYPE",
+        "STRUCT_NAME",
+        "U_FIELD_NAME"
+    ],
+    "GenBuilders": [
+        "CREATE_STRING",
+        "OFFSET_NAME",
+        "ADD_OFFSET",
+        "FIELD_NAME",
+        "FIELD_TYPE",
+        "STRUCT_NAME",
+        "ADD_VALUE",
+        "CREATE_NAME",
+        "ADD_FN",
+        "ADD_NAME"
+    ],
+    "GenTablePost": [
+        "FIELD_NAME",
+        "POINTER_TYPE",
+        "STRUCT_NAME",
+        "NATIVE_NAME",
+        "CREATE_NAME"
+    ],
+    "GenStructDefaultConstructor": [
+        "INIT_LIST"
+    ],
+    "GenStructConstructor": [
+        "INIT_LIST",
+        "ARG_LIST",
+        "FIELD_NAME",
+        "FIELD_TYPE",
+        "STRUCT_NAME",
+        "NATIVE_NAME",
+        "FIELD_VALUE",
+        "STRUCT_BYTE_SIZE"
+    ],
+    "GenArrayAccessor": [
+        "FIELD_NAME",
+        "FIELD_TYPE",
+        "STRUCT_NAME",
+        "NATIVE_NAME",
+        "FIELD_VALUE",
+        "STRUCT_BYTE_SIZE"
+    ],
+    "GenStruct": [
+        "FIELD_NAME",
+        "FIELD_TYPE",
+        "STRUCT_NAME",
+        "NATIVE_NAME",
+        "FIELD_VALUE",
+        "STRUCT_BYTE_SIZE"
+    ]
+}

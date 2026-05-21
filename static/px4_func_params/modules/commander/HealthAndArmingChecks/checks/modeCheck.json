@@ -1,0 +1,6 @@
+{
+    "checkAndReport": [
+        "COM_RC_IN_MODE",
+        "COM_ARM_MIS_REQ"
+    ]
+}

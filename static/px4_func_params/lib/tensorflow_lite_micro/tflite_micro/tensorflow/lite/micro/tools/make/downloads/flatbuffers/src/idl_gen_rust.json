@@ -1,0 +1,31 @@
+{
+    "GenEnum": [
+        "INTO_BASE",
+        "ENUM_MIN_BASE_VALUE",
+        "ACCESS_TYPE",
+        "ENUM_NAMESPACE",
+        "ENUM_MAX_BASE_VALUE",
+        "BASE_TYPE",
+        "ENUM_CONSTANT",
+        "UNION_TYPE",
+        "ENUM_TY"
+    ],
+    "GenUnionObject": [
+        "ENUM_FN",
+        "ENUM_OTY",
+        "ENUM_TY"
+    ],
+    "GenTableObject": [
+        "ENUM_METHOD",
+        "STRUCT_OTY",
+        "STRUCT_TY"
+    ],
+    "GenKeyFieldMethods": [
+        "KEY_TYPE"
+    ],
+    "GenRootTableFuncs": [
+        "STRUCT_TY",
+        "STRUCT_FN",
+        "STRUCT_CONST"
+    ]
+}

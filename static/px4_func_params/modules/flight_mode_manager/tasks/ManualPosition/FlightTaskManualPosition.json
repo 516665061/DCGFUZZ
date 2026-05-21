@@ -1,0 +1,10 @@
+{
+    "_scaleSticks": [
+        "MPC_VEL_MAN_SIDE",
+        "MPC_VEL_MAN_BACK",
+        "MPC_VEL_MANUAL"
+    ],
+    "_updateXYlock": [
+        "MPC_HOLD_MAX_XY"
+    ]
+}

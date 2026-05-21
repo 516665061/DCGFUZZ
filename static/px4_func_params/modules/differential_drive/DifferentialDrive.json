@@ -1,0 +1,12 @@
+{
+    "updateParams": [
+        "RDD_WHEEL_RADIUS",
+        "RDD_WHEEL_BASE",
+        "RDD_WHEEL_SPEED"
+    ],
+    "Run": [
+        "RDD_SPEED_SCALE",
+        "COM_SPOOLUP_TIME",
+        "RDD_ANG_SCALE"
+    ]
+}

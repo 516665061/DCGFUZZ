@@ -1,0 +1,7 @@
+{
+    "main": [
+        "SEQUENCE_LENGTH",
+        "BATCH_SIZE",
+        "HIDDEN_DIM"
+    ]
+}

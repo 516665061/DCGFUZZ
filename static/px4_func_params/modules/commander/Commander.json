@@ -1,0 +1,44 @@
+{
+    "handle_command": [
+        "COM_HOME_EN"
+    ],
+    "handleCommandActuatorTest": [
+        "COM_MOT_TEST_EN"
+    ],
+    "updateParameters": [
+        "COM_OBS_AVOID",
+        "COM_KILL_DISARM",
+        "RC_MAP_FLTMODE",
+        "MAV_TYPE"
+    ],
+    "run": [
+        "COM_OBS_AVOID",
+        "COM_HOME_EN"
+    ],
+    "checkForMissionUpdate": [
+        "COM_TAKEOFF_ACT"
+    ],
+    "getPrearmState": [
+        "COM_PREARM_MODE"
+    ],
+    "landDetectorUpdate": [
+        "COM_HOME_EN",
+        "COM_HOME_IN_AIR"
+    ],
+    "handleAutoDisarm": [
+        "COM_DISARM_PRFLT",
+        "COM_DISARM_LAND"
+    ],
+    "control_status_leds": [
+        "COM_CPU_MAX"
+    ],
+    "dataLinkCheck": [
+        "COM_DL_LOSS_T",
+        "COM_HLDL_LOSS_T",
+        "COM_OBC_LOSS_T",
+        "COM_HLDL_REG_T"
+    ],
+    "manualControlCheck": [
+        "COM_RC_OVERRIDE"
+    ]
+}

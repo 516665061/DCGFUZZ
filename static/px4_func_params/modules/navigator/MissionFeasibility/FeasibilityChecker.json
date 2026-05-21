@@ -1,0 +1,14 @@
+{
+    "updateData": [
+        "MIS_TKO_LAND_REQ",
+        "NAV_ACC_RAD",
+        "FW_LND_ANG",
+        "MIS_DIST_1WP"
+    ],
+    "checkFixedWindLandApproach": [
+        "FW_LND_ANG"
+    ],
+    "checkHorizontalDistanceToFirstWaypoint": [
+        "MIS_DIST_1WP"
+    ]
+}

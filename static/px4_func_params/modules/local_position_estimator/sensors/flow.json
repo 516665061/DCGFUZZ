@@ -1,0 +1,11 @@
+{
+    "flowMeasure": [
+        "LPE_FLW_QMIN",
+        "LPE_FLW_SCALE",
+        "LPE_FUSION"
+    ],
+    "flowCorrect": [
+        "LPE_FLW_R",
+        "LPE_FLW_RR"
+    ]
+}

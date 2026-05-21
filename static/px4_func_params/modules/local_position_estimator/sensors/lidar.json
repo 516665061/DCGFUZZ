@@ -1,0 +1,8 @@
+{
+    "lidarMeasure": [
+        "LPE_LDR_OFF_Z"
+    ],
+    "lidarCorrect": [
+        "LPE_LDR_Z"
+    ]
+}

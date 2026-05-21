@@ -1,0 +1,5 @@
+{
+    "do_airspeed_calibration": [
+        "SENS_DPRES_OFF"
+    ]
+}

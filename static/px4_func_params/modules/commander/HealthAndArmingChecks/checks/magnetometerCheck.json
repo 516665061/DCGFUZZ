@@ -1,0 +1,8 @@
+{
+    "checkAndReport": [
+        "SYS_HAS_MAG"
+    ],
+    "consistencyCheck": [
+        "COM_ARM_MAG_ANG"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "filter_calibration_params": [
+        "CAL_",
+        "CAL_MAG_SIDES",
+        "CAL_MAG",
+        "TC_",
+        "_PRIO"
+    ]
+}

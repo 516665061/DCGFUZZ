@@ -1,0 +1,58 @@
+{
+    "parameters_update": [
+        "VT_F_TR_OL_TM",
+        "VT_ARSP_TRANS",
+        "VT_TRANS_MIN_TM",
+        "VT_ARSP_BLEND"
+    ],
+    "update_and_get_backtransition_pitch_sp": [
+        "VT_B_DEC_I",
+        "VT_B_DEC_MSS"
+    ],
+    "isFrontTransitionCompletedBase": [
+        "FW_USE_AIRSPD"
+    ],
+    "isQuadchuteEnabled": [
+        "VT_FW_QC_HMAX"
+    ],
+    "isMinAltBreached": [
+        "VT_FW_MIN_ALT"
+    ],
+    "isUncommandedDescent": [
+        "VT_QC_ALT_LOSS"
+    ],
+    "isFrontTransitionAltitudeLoss": [
+        "VT_QC_T_ALT_LOSS"
+    ],
+    "isPitchExceeded": [
+        "VT_FW_QC_P"
+    ],
+    "isRollExceeded": [
+        "VT_FW_QC_R"
+    ],
+    "pusher_assist": [
+        "MPC_LAND_ALT2",
+        "VT_PITCH_MIN",
+        "VT_FWD_THRUST_SC",
+        "MPC_LAND_ALT1",
+        "VT_FWD_THRUST_EN",
+        "VT_LND_PITCH_MIN"
+    ],
+    "getMinimumFrontTransitionTime": [
+        "VT_TRANS_MIN_TM"
+    ],
+    "getFrontTransitionTimeout": [
+        "VT_TRANS_TIMEOUT"
+    ],
+    "getOpenLoopFrontTransitionTime": [
+        "VT_F_TR_OL_TM"
+    ],
+    "getTransitionAirspeed": [
+        "WEIGHT_BASE",
+        "VT_ARSP_TRANS",
+        "WEIGHT_GROSS"
+    ],
+    "getBlendAirspeed": [
+        "VT_ARSP_BLEND"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "params_update": [
+        "MIS_PD_TO",
+        "MPC_ACC_HOR",
+        "MPC_JERK_AUTO"
+    ],
+    "get_default_acceptance_radius": [
+        "NAV_ACC_RAD"
+    ],
+    "get_altitude_acceptance_radius": [
+        "NAV_FW_ALTL_RAD",
+        "NAV_MC_ALT_RAD",
+        "NAV_FW_ALT_RAD"
+    ],
+    "force_vtol": [
+        "NAV_FORCE_VT"
+    ],
+    "calculate_breaking_stop": [
+        "MPC_ACC_HOR",
+        "MPC_JERK_AUTO"
+    ]
+}

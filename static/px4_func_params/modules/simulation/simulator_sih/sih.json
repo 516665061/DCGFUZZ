@@ -1,0 +1,35 @@
+{
+    "run": [
+        "SIH_VEHICLE_TYPE"
+    ],
+    "lockstep_loop": [
+        "PX4_SIM_SPEED_FACTOR",
+        "IMU_INTEG_RATE",
+        "IMU_GYRO_RATEMAX"
+    ],
+    "realtime_loop": [
+        "IMU_GYRO_RATEMAX"
+    ],
+    "parameters_updated": [
+        "SIH_IXZ",
+        "SIH_T_TAU",
+        "SIH_KDV",
+        "SIH_L_PITCH",
+        "SIH_DISTSNSR_OVR",
+        "SIH_T_MAX",
+        "SIH_IZZ",
+        "SIH_IYZ",
+        "SIH_IXX",
+        "SIH_DISTSNSR_MIN",
+        "SIH_MASS",
+        "SIH_LOC_H0",
+        "SIH_LOC_LAT0",
+        "SIH_DISTSNSR_MAX",
+        "SIH_IYY",
+        "SIH_Q_MAX",
+        "SIH_L_ROLL",
+        "SIH_LOC_LON0",
+        "SIH_IXY",
+        "SIH_KDW"
+    ]
+}

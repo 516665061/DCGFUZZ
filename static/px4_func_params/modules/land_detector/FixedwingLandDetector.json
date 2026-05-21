@@ -1,0 +1,8 @@
+{
+    "_get_landed_state": [
+        "LNDFW_AIRSPD_MAX",
+        "LNDFW_XYACC_MAX",
+        "LNDFW_VEL_XY_MAX",
+        "LNDFW_VEL_Z_MAX"
+    ]
+}

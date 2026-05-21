@@ -1,0 +1,7 @@
+{
+    "checkAndReport": [
+        "COM_WIND_MAX_ACT",
+        "COM_WIND_MAX",
+        "COM_WIND_WARN"
+    ]
+}

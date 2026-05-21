@@ -1,0 +1,23 @@
+{
+    "blockLowPassTest": [
+        "TEST_LP"
+    ],
+    "blockHighPassTest": [
+        "TEST_HP"
+    ],
+    "blockLowPass2Test": [
+        "TEST_LP"
+    ],
+    "blockIntegralTest": [
+        "TEST_I"
+    ],
+    "blockIntegralTrapTest": [
+        "TEST_I"
+    ],
+    "blockDerivativeTest": [
+        "TEST_D"
+    ],
+    "blockPTest": [
+        "TEST_P"
+    ]
+}

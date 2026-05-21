@@ -1,0 +1,10 @@
+{
+    "init": [
+        "IMU_GYRO_FFT_LEN"
+    ],
+    "FindPeaks": [
+        "IMU_GYRO_FFT_MAX",
+        "IMU_GYRO_FFT_MIN",
+        "IMU_GYRO_FFT_SNR"
+    ]
+}

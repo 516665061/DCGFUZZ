@@ -1,0 +1,17 @@
+{
+    "update": [
+        "MC_SLOW_MIN_VVEL",
+        "MPC_Z_VEL_MAX_UP",
+        "MPC_VEL_MANUAL",
+        "MC_SLOW_MAP_HVEL",
+        "MPC_Z_VEL_MAX_DN",
+        "MC_SLOW_DEF_YAWR",
+        "MPC_MAN_Y_MAX",
+        "MC_SLOW_DEF_VVEL",
+        "MC_SLOW_DEF_HVEL",
+        "MC_SLOW_MAP_VVEL",
+        "MC_SLOW_MIN_YAWR",
+        "MC_SLOW_MIN_HVEL",
+        "MC_SLOW_MAP_YAWR"
+    ]
+}

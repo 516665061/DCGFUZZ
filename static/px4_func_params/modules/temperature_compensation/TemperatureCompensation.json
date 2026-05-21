@@ -1,0 +1,8 @@
+{
+    "initialize_parameter_handles": [
+        "TC_A_ENABLE",
+        "TC_B_ENABLE",
+        "TC_M_ENABLE",
+        "TC_G_ENABLE"
+    ]
+}

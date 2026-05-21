@@ -1,0 +1,11 @@
+{
+    "on_active": [
+        "RTL_PLD_MD"
+    ],
+    "set_rtl_item": [
+        "RTL_MIN_DIST",
+        "WV_EN",
+        "RTL_PLD_MD",
+        "RTL_LAND_DELAY"
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "task_main": [
+        "SYS_CAL_TMAX",
+        "SYS_CAL_TDEL",
+        "SYS_CAL_TMIN"
+    ]
+}

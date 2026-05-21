@@ -1,0 +1,17 @@
+{
+    "reset": [
+        "HTE_HT_ERR_INIT",
+        "MPC_THR_HOVER"
+    ],
+    "updateParams": [
+        "HTE_ACC_GATE",
+        "HTE_HT_NOISE",
+        "HTE_HT_ERR_INIT",
+        "MPC_THR_HOVER",
+        "HTE_THR_RANGE"
+    ],
+    "Run": [
+        "HTE_VXY_THR",
+        "HTE_VZ_THR"
+    ]
+}

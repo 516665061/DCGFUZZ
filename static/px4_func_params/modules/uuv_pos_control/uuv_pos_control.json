@@ -1,0 +1,16 @@
+{
+    "pose_controller_6dof": [
+        "UUV_GAIN_Z_P",
+        "UUV_GAIN_X_P",
+        "UUV_GAIN_X_D",
+        "UUV_GAIN_Y_P",
+        "UUV_GAIN_Z_D",
+        "UUV_GAIN_Y_D"
+    ],
+    "stabilization_controller_6dof": [
+        "UUV_GAIN_Z_P"
+    ],
+    "Run": [
+        "UUV_STAB_MODE"
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "update": [
+        "RWTO_ROT_AIRSPD",
+        "RWTO_RAMP_TIME"
+    ],
+    "getPitch": [
+        "RWTO_PSP"
+    ],
+    "getYaw": [
+        "RWTO_HDG"
+    ],
+    "getThrottle": [
+        "RWTO_ROT_TIME",
+        "RWTO_MAX_THR",
+        "RWTO_RAMP_TIME"
+    ],
+    "getMinPitch": [
+        "RWTO_ROT_TIME",
+        "RWTO_PSP"
+    ],
+    "getMaxPitch": [
+        "RWTO_ROT_TIME",
+        "RWTO_PSP"
+    ]
+}

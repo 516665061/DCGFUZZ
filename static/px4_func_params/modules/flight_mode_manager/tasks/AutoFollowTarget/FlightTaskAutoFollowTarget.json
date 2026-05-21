@@ -1,0 +1,25 @@
+{
+    "activate": [
+        "FLW_TGT_HT",
+        "FLW_TGT_DST",
+        "FLW_TGT_FA"
+    ],
+    "updateParams": [
+        "FLW_TGT_HT",
+        "FLW_TGT_DST",
+        "FLW_TGT_FA"
+    ],
+    "updateRcAdjustedFollowAngle": [
+        "FLW_TGT_MAX_VEL"
+    ],
+    "updateOrbitAngleTrajectory": [
+        "FLW_TGT_MAX_VEL"
+    ],
+    "update": [
+        "FLW_TGT_ALT_M"
+    ],
+    "releaseGimbalControl": [
+        "MAV_COMP_ID",
+        "MAV_SYS_ID"
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "update_vtol_state": [
+        "VT_TILT_MC",
+        "MPC_XY_CRUISE",
+        "VT_B_TRANS_DUR",
+        "VT_TILT_FW"
+    ],
+    "update_mc_state": [
+        "VT_TILT_MC"
+    ],
+    "update_fw_state": [
+        "VT_TILT_FW"
+    ],
+    "update_transition_state": [
+        "VT_TILT_MC",
+        "FW_USE_AIRSPD",
+        "VT_F_TRANS_DUR",
+        "VT_BT_TILT_DUR",
+        "VT_TRANS_P2_DUR",
+        "VT_TILT_FW",
+        "VT_TILT_TRANS"
+    ],
+    "fill_actuator_outputs": [
+        "VT_FW_DIFTHR_EN",
+        "VT_FW_DIFTHR_S_Y",
+        "VT_ELEV_MC_LOCK"
+    ],
+    "timeUntilMotorsAreUp": [
+        "VT_BT_TILT_DUR"
+    ],
+    "isFrontTransitionCompletedBase": [
+        "VT_TILT_TRANS"
+    ]
+}

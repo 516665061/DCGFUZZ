@@ -1,0 +1,32 @@
+{
+    "parameters_update": [
+        "FW_Y_RMAX",
+        "FW_P_RMAX_NEG",
+        "FW_P_RMAX_POS",
+        "FW_WR_FF",
+        "FW_WR_P",
+        "FW_R_RMAX",
+        "FW_WR_IMAX",
+        "FW_W_RMAX",
+        "FW_P_TC",
+        "FW_R_TC",
+        "FW_WR_I"
+    ],
+    "vehicle_manual_poll": [
+        "FW_PSP_OFF",
+        "FW_MAN_P_MAX",
+        "FW_MAN_R_MAX"
+    ],
+    "get_airspeed_constrained": [
+        "FW_AIRSPD_STALL",
+        "FW_USE_AIRSPD",
+        "FW_AIRSPD_TRIM",
+        "FW_AIRSPD_MAX"
+    ],
+    "Run": [
+        "FW_AIRSPD_STALL",
+        "FW_Y_RMAX",
+        "FW_W_EN",
+        "FW_MAN_YR_MAX"
+    ]
+}

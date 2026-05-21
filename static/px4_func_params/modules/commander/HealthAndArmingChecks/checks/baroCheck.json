@@ -1,0 +1,5 @@
+{
+    "checkAndReport": [
+        "SYS_HAS_BARO"
+    ]
+}

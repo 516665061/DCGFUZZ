@@ -1,0 +1,83 @@
+{
+    "mavlink_update_parameters": [
+        "MAV_PROTO_VER",
+        "MAV_TYPE"
+    ],
+    "set_hil_enabled": [
+        "HIL_ACTUATOR_CONTROLS",
+        "HIL_STATE_QUATERNION",
+        "SYS_HITL"
+    ],
+    "update_rate_mult": [
+        "MAV_RADIO_TOUT"
+    ],
+    "configure_streams_to_default": [
+        "RAW_RPM",
+        "HIGHRES_IMU",
+        "CAMERA_IMAGE_CAPTURED",
+        "ESTIMATOR_STATUS",
+        "NAV_CONTROLLER_OUTPUT",
+        "LINK_NODE_STATUS",
+        "ESC_STATUS",
+        "LOCAL_POSITION_NED",
+        "OPEN_DRONE_ID_SYSTEM",
+        "SCALED_IMU2",
+        "AUTOPILOT_STATE_FOR_GIMBAL_DEVICE",
+        "SCALED_IMU3",
+        "SCALED_PRESSURE2",
+        "CURRENT_MODE",
+        "GIMBAL_DEVICE_SET_ATTITUDE",
+        "FIGURE_EIGHT_EXECUTION_STATUS",
+        "NAMED_VALUE_FLOAT",
+        "ESC_INFO",
+        "GIMBAL_DEVICE_ATTITUDE_STATUS",
+        "GPS2_RAW",
+        "ATTITUDE_TARGET",
+        "GPS_RAW_INT",
+        "TRAJECTORY_REPRESENTATION_WAYPOINTS",
+        "DEBUG_FLOAT_ARRAY",
+        "DEBUG_VECT",
+        "GPS_GLOBAL_ORIGIN",
+        "SYSTEM_TIME",
+        "UAVIONIX_ADSB_OUT_CFG",
+        "UAVIONIX_ADSB_OUT_DYNAMIC",
+        "AVAILABLE_MODES",
+        "ADSB_VEHICLE",
+        "HYGROMETER_SENSOR",
+        "POSITION_TARGET_GLOBAL_INT",
+        "SCALED_PRESSURE",
+        "EFI_STATUS",
+        "DISTANCE_SENSOR",
+        "RC_CHANNELS",
+        "VFR_HUD",
+        "HOME_POSITION",
+        "MANUAL_CONTROL",
+        "HIGH_LATENCY2",
+        "OBSTACLE_DISTANCE",
+        "SYS_STATUS",
+        "TIME_ESTIMATE_TO_TARGET",
+        "POSITION_TARGET_LOCAL_NED",
+        "ATTITUDE_QUATERNION",
+        "GPS_STATUS",
+        "BATTERY_STATUS",
+        "MOUNT_ORIENTATION",
+        "SCALED_IMU",
+        "GLOBAL_POSITION_INT",
+        "ORBIT_EXECUTION_STATUS",
+        "CAMERA_TRIGGER",
+        "OPTICAL_FLOW_RAD",
+        "SERVO_OUTPUT_RAW_0",
+        "GIMBAL_MANAGER_STATUS",
+        "OPEN_DRONE_ID_LOCATION",
+        "SERVO_OUTPUT_RAW_1",
+        "EXTENDED_SYS_STATE",
+        "MAG_CAL_REPORT",
+        "WIND_COV"
+    ],
+    "task_main": [
+        "COMMAND_LONG"
+    ],
+    "configure_sik_radio": [
+        "MAV_SIK_RADIO_ID"
+    ]
+}

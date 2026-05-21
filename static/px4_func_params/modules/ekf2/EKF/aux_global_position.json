@@ -1,0 +1,8 @@
+{
+    "update": [
+        "EKF2_AGP_NOISE",
+        "EKF2_AGP_GATE",
+        "EKF2_AGP_CTRL",
+        "EKF2_AGP_DELAY"
+    ]
+}
